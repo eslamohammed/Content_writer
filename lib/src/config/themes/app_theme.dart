@@ -1,6 +1,6 @@
 
-import 'package:car_booking/src/core/utils/app_colors.dart';
-import 'package:car_booking/src/core/utils/app_strings.dart';
+import 'package:content_writer/src/core/utils/app_colors.dart';
+import 'package:content_writer/src/core/utils/app_strings.dart';
 import 'package:flutter/material.dart';
 
 ThemeData appTheame(){
@@ -22,3 +22,14 @@ ThemeData appTheame(){
     )
   );
 }
+
+final ButtonStyle buttonPrimary = ElevatedButton.styleFrom(
+  
+  minimumSize: Size(345.79,48),
+  primary: Colors.red,
+  elevation: 0,
+  shape: const RoundedRectangleBorder(
+    borderRadius: BorderRadius.all(Radius.circular(5))
+  ),
+
+);

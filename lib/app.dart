@@ -1,4 +1,4 @@
-import 'package:car_booking/src/core/utils/app_strings.dart';
+import 'package:content_writer/src/core/utils/app_strings.dart';
 import 'package:flutter/material.dart';
 
 import 'src/features/Login/presentation/screens/loginScreen.dart';
@@ -6,8 +6,8 @@ import 'src/features/registerScreen/presentation/screens/registerScreen.dart';
 
 
 
-class CarBooking extends StatelessWidget {
-  const CarBooking({super.key});
+class ContentWriter extends StatelessWidget {
+  const ContentWriter({super.key});
 
   // This widget is the root of your application.
   @override
@@ -19,8 +19,8 @@ class CarBooking extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      //home: ContentWriterLoginScreen(),
-      home: RegisterScreen(),
+      home: ContentWriterLoginScreen(),
+      //home: RegisterScreen(),
     );
   }
 }

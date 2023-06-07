@@ -1,4 +1,4 @@
-name: car_booking
+name: content_writer
 description: A new Flutter project.
 publish_to: 'none' # Remove this line if you wish to publish to pub.dev
 
@@ -31,7 +31,7 @@ flutter:
     - assets/images/Background1.png
     - assets/images/Background2.png
     - assets/images/P1.png
-
+    - assets/images/Group.png
   fonts:
     - family: Tajawal
       fonts:

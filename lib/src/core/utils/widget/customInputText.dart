@@ -1,5 +1,5 @@
-import 'package:car_booking/src/core/utils/app_strings.dart';
-import 'package:car_booking/src/core/utils/hex_color.dart';
+import 'package:content_writer/src/core/utils/app_strings.dart';
+import 'package:content_writer/src/core/utils/hex_color.dart';
 import 'package:flutter/material.dart';
 
 class CustomInputTextField extends StatelessWidget {
