@@ -1,8 +1,11 @@
+// ignore_for_file: unused_import
+
 import 'package:content_writer/src/core/utils/app_strings.dart';
 import 'package:flutter/material.dart';
 
 import 'src/features/Login/presentation/screens/loginScreen.dart';
-import 'src/features/registerScreen/presentation/screens/registerScreen.dart';
+import 'src/features/register/presentation/screens/registerScreen.dart';
+import 'package:content_writer/src/features/setupProfile/presentation/screens/setupPofile.dart';
 
 
 
@@ -21,6 +24,7 @@ class ContentWriter extends StatelessWidget {
       ),
       home: ContentWriterLoginScreen(),
       //home: RegisterScreen(),
+      //home: SetupProfile(),
     );
   }
 }

@@ -11,7 +11,9 @@ class CustomInputTextField extends StatelessWidget {
     this.labelText,
     this.icon,
     this.fillColor,
+    this.top,
   }) : super(key: key);
+  final double? top;
   final String hintText;
   final String? labelText;
   final bool secure;
@@ -23,7 +25,7 @@ class CustomInputTextField extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Padding(
-      padding: const EdgeInsets.only(top: 10),
+      padding: EdgeInsets.only(top: top !=null ? top! : 10.0),
       child: TextFormField(
         style: TextStyle(
           color: HexColor("#FFFFFF"),
@@ -44,6 +46,7 @@ class CustomInputTextField extends StatelessWidget {
         controller: controller,
         obscureText: secure,
         decoration: InputDecoration(
+          contentPadding: EdgeInsets.symmetric(vertical: 20,horizontal: 26),
           fillColor: fillColor == null ? Colors.white : fillColor,
           filled: true,
           labelText: labelText,
@@ -63,14 +66,14 @@ class CustomInputTextField extends StatelessWidget {
             fontStyle: FontStyle.normal,
           ),
           //icon: new Icon(icon)
-          prefixIcon: Padding(
+          prefixIcon: icon != null ? Padding(
             padding: EdgeInsets.all(0.0),
             child: Icon(
               icon,
               color: HexColor("#999999"),
               //size: 50,
-            ),
-          ),
+            ), 
+          ) : null ,
           /*prefix: Icon(
             icon,
             color: HexColor("#999999"),

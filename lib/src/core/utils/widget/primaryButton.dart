@@ -17,7 +17,7 @@ class PrimaryButton extends StatelessWidget {
     this.borderRadius,
     this.width,
     this.height = 44.0,
-    this.gradient = const LinearGradient(colors: [Colors.cyan, Colors.indigo]),
+    this.gradient = const LinearGradient(colors: [Colors.white, Colors.white]),
   }) : super(key: key);
 
   @override

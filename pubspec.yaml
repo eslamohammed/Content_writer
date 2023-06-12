@@ -28,10 +28,10 @@ flutter:
   # To add assets to your application, add an assets section, like this:
   assets:
     - assets/images/Background.png
-    - assets/images/Background1.png
-    - assets/images/Background2.png
-    - assets/images/P1.png
     - assets/images/Group.png
+    - assets/images/upload.png
+
+
   fonts:
     - family: Tajawal
       fonts:

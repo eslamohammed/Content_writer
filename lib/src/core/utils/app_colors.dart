@@ -15,6 +15,7 @@ class AppColors{
   static Color secondaryButton = HexColor("#369FFF");
 
   static Color inputColor = HexColor("#2d2c2d");
+
   static Color hint = Colors.grey;
   
 }

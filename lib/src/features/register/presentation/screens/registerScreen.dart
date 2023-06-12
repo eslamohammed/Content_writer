@@ -1,10 +1,10 @@
 
 import 'package:content_writer/src/core/utils/app_colors.dart';
 import 'package:content_writer/src/core/utils/app_strings.dart';
-import 'package:content_writer/src/config/themes/app_theme.dart';
 import 'package:content_writer/src/core/utils/hex_color.dart';
 import 'package:content_writer/src/core/utils/widget/primaryButton.dart';
 import 'package:content_writer/src/features/Login/presentation/screens/loginScreen.dart';
+import 'package:content_writer/src/features/setupProfile/presentation/screens/setupPofile.dart';
 import 'package:flutter/gestures.dart';
 import 'package:flutter/material.dart';
 
@@ -48,8 +48,9 @@ class _RegisterScreenState extends State<RegisterScreen> {
   @override
   Widget build(BuildContext context) {
     return SafeArea(
-      child:
-          Scaffold(backgroundColor: Colors.white, body: _registerScreen(context)),
+      child: Scaffold(
+        body: _registerScreen(context)
+      ),
     );
   }
 
@@ -75,7 +76,7 @@ class _RegisterScreenState extends State<RegisterScreen> {
                   mainAxisAlignment: MainAxisAlignment.end,
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
-                    Container(
+                    Container(//Sign Up 
                       //color: Colors.blue,
                         width: width*(138/390),
                         //height: height*(56/844),
@@ -90,7 +91,7 @@ class _RegisterScreenState extends State<RegisterScreen> {
                           ),
                         ),
                     ),
-                    Container(
+                    Container(//please fill
                       //color: Colors.blue,
                         width: width*(267.07/390),
                         //height: height*(36/844),
@@ -129,6 +130,7 @@ class _RegisterScreenState extends State<RegisterScreen> {
                       secure: false,
                       icon: Icons.person,
                       fillColor: AppColors.inputColor,
+                      top: 10.0,
                     ),
                     //Email
                     CustomInputTextField(
@@ -137,6 +139,7 @@ class _RegisterScreenState extends State<RegisterScreen> {
                       secure: false,
                       icon: Icons.email_outlined,
                       fillColor: AppColors.inputColor,
+                      top: 10.0,
                     ),
                     //pasword
                     CustomInputPassword2Field(
@@ -270,6 +273,7 @@ class _RegisterScreenState extends State<RegisterScreen> {
                           ),
                           onPressed: () => {
                             // call api function to be procced
+                            Navigator.push(context, MaterialPageRoute(builder: ((context) => SetupProfile())))
                           },
                         ),
                       ),
@@ -317,7 +321,6 @@ class _RegisterScreenState extends State<RegisterScreen> {
                         ),
                       ),
                     ),
-
                   ],
                 ),
               ),
