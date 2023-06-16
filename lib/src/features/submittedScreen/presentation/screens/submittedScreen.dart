@@ -8,12 +8,15 @@ import 'package:content_writer/src/core/utils/assets_manager.dart';
 import 'package:content_writer/src/features/Login/presentation/screens/loginScreen.dart';
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 import 'package:content_writer/src/features/homePage/presentation/screens/home_page_screen.dart';
 >>>>>>> 7862575 (last update Before dev changes)
 =======
 import 'package:content_writer/src/features/homePage/presentation/screens/home_page_screen.dart';
 >>>>>>> 78625753cc786bcc2cc0428dedbe2386a0f59465
+=======
+>>>>>>> 150e31a (first part)
 import 'package:flutter/material.dart';
 
 class SubmittedScreen extends StatefulWidget {
@@ -34,6 +37,7 @@ class _SubmittedScreenState extends State<SubmittedScreen> {
         MaterialPageRoute(
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
           builder: (_) =>  ContentWriterLoginScreen(), //phoneNumber: widget.phoneNumber
 =======
         //  builder: (_) =>  ContentWriterLoginScreen(), //phoneNumber: widget.phoneNumber
@@ -43,6 +47,9 @@ class _SubmittedScreenState extends State<SubmittedScreen> {
         //  builder: (_) =>  ContentWriterLoginScreen(), //phoneNumber: widget.phoneNumber
           builder: (_) =>  HomePage(), //phoneNumber: widget.phoneNumber
 >>>>>>> 78625753cc786bcc2cc0428dedbe2386a0f59465
+=======
+          builder: (_) =>  ContentWriterLoginScreen(), //phoneNumber: widget.phoneNumber
+>>>>>>> 150e31a (first part)
         ),
       );
     });

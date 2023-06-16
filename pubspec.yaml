@@ -47,6 +47,7 @@ flutter:
   assets:
     - assets/images/Background.png
 <<<<<<< HEAD
+<<<<<<< HEAD
     - assets/images/Group.png
     - assets/images/upload.png
 
@@ -57,6 +58,12 @@ flutter:
     - assets/images/P1.png
     - assets/images/Group.png
 >>>>>>> 9b6515d (Log in page and sign up page are aproximately finish, they are about to done assets is tracked)
+=======
+    - assets/images/Group.png
+    - assets/images/upload.png
+
+
+>>>>>>> 150e31a (first part)
   fonts:
 <<<<<<< HEAD
 <<<<<<< HEAD

@@ -6,12 +6,15 @@ import 'package:content_writer/src/core/utils/widget/primaryButton.dart';
 import 'package:content_writer/src/features/Login/presentation/screens/loginScreen.dart';
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 import 'package:content_writer/src/features/setupProfile/presentation/screens/profile_setup_screen.dart';
 >>>>>>> 7862575 (last update Before dev changes)
 =======
 import 'package:content_writer/src/features/setupProfile/presentation/screens/profile_setup_screen.dart';
 >>>>>>> 78625753cc786bcc2cc0428dedbe2386a0f59465
+=======
+>>>>>>> 150e31a (first part)
 import 'package:content_writer/src/features/setupProfile/presentation/screens/setupPofile.dart';
 import 'package:flutter/gestures.dart';
 import 'package:flutter/material.dart';
@@ -29,10 +32,14 @@ class RegisterScreen extends StatefulWidget {
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 150e31a (first part)
   List<String> options = ["I Agree to Term & Condition and Privacy Policy",""];
 
 class _RegisterScreenState extends State<RegisterScreen> {
   String currentOption = options[0];
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 78625753cc786bcc2cc0428dedbe2386a0f59465
@@ -47,6 +54,8 @@ class _RegisterScreenState extends State<RegisterScreen> {
 >>>>>>> 7862575 (last update Before dev changes)
 =======
 >>>>>>> 78625753cc786bcc2cc0428dedbe2386a0f59465
+=======
+>>>>>>> 150e31a (first part)
 
   final TextEditingController _nameTextEditingController =
       TextEditingController();
@@ -139,16 +148,22 @@ class _RegisterScreenState extends State<RegisterScreen> {
                 width: width,
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 150e31a (first part)
                 //height: height*(462/878),
 //                height: height*(496.81/878),
 /*                decoration: BoxDecoration(
                   color: Colors.blue
                 ),
 */
+<<<<<<< HEAD
 =======
 >>>>>>> 7862575 (last update Before dev changes)
 =======
 >>>>>>> 78625753cc786bcc2cc0428dedbe2386a0f59465
+=======
+>>>>>>> 150e31a (first part)
                 child: Column(
                   crossAxisAlignment: CrossAxisAlignment.start,
                   mainAxisAlignment: MainAxisAlignment.start,
@@ -191,6 +206,9 @@ class _RegisterScreenState extends State<RegisterScreen> {
                     ),
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 150e31a (first part)
                     
 
                     Padding(
@@ -277,6 +295,7 @@ class _RegisterScreenState extends State<RegisterScreen> {
                       ),
                     ),
 
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 78625753cc786bcc2cc0428dedbe2386a0f59465
@@ -379,6 +398,8 @@ class _RegisterScreenState extends State<RegisterScreen> {
 >>>>>>> 7862575 (last update Before dev changes)
 =======
 >>>>>>> 78625753cc786bcc2cc0428dedbe2386a0f59465
+=======
+>>>>>>> 150e31a (first part)
                     Center(//Primary Sign Up Button
                       child: Padding(
                         padding: const EdgeInsets.only(top : 10.0),
@@ -387,6 +408,9 @@ class _RegisterScreenState extends State<RegisterScreen> {
                           height: (60/844)*height,
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 150e31a (first part)
                           //height: (48),
                           gradient: LinearGradient(
                             begin: Alignment.centerRight,
@@ -396,10 +420,13 @@ class _RegisterScreenState extends State<RegisterScreen> {
                               AppColors.secondaryButton,
                               ]
                             ),
+<<<<<<< HEAD
 =======
 >>>>>>> 7862575 (last update Before dev changes)
 =======
 >>>>>>> 78625753cc786bcc2cc0428dedbe2386a0f59465
+=======
+>>>>>>> 150e31a (first part)
                           borderRadius: BorderRadius.circular(5),
                           child:Text(
                             "Sign Up",
@@ -415,6 +442,7 @@ class _RegisterScreenState extends State<RegisterScreen> {
                             // call api function to be procced
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                             Navigator.push(context, MaterialPageRoute(builder: ((context) => SetupProfile())))
 =======
                             Navigator.push(context, MaterialPageRoute(builder: ((context) => ProfileSetUp())))
@@ -422,6 +450,9 @@ class _RegisterScreenState extends State<RegisterScreen> {
 =======
                             Navigator.push(context, MaterialPageRoute(builder: ((context) => ProfileSetUp())))
 >>>>>>> 78625753cc786bcc2cc0428dedbe2386a0f59465
+=======
+                            Navigator.push(context, MaterialPageRoute(builder: ((context) => SetupProfile())))
+>>>>>>> 150e31a (first part)
                           },
                         ),
                       ),

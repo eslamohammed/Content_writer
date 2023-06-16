@@ -1,8 +1,13 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 // ignore_for_file: unused_import
 
 =======
 >>>>>>> 9b6515d (Log in page and sign up page are aproximately finish, they are about to done assets is tracked)
+=======
+// ignore_for_file: unused_import
+
+>>>>>>> 150e31a (first part)
 import 'package:content_writer/src/core/utils/app_strings.dart';
 import 'package:flutter/material.dart';
 <<<<<<< HEAD
@@ -58,9 +63,13 @@ class ContentWriter extends StatelessWidget {
       home: ContentWriterLoginScreen(),
       //home: RegisterScreen(),
 <<<<<<< HEAD
+<<<<<<< HEAD
       //home: SetupProfile(),
 =======
 >>>>>>> 9b6515d (Log in page and sign up page are aproximately finish, they are about to done assets is tracked)
+=======
+      //home: SetupProfile(),
+>>>>>>> 150e31a (first part)
     );
   }
 }

@@ -1,10 +1,14 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 import 'package:content_writer/src/core/utils/app_colors.dart';
 =======
 >>>>>>> 7862575 (last update Before dev changes)
 =======
 >>>>>>> 78625753cc786bcc2cc0428dedbe2386a0f59465
+=======
+import 'package:content_writer/src/core/utils/app_colors.dart';
+>>>>>>> 150e31a (first part)
 import 'package:content_writer/src/core/utils/app_strings.dart';
 import 'package:content_writer/src/core/utils/widget/primaryButton.dart';
 import 'package:content_writer/src/features/submitTest/presentation/screens/submit_test.dart';
@@ -39,6 +43,7 @@ class TakeATest extends StatelessWidget {
               child: Container(
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 height: (234/844)*height,
 =======
                 height: (334/844)*height,
@@ -46,6 +51,9 @@ class TakeATest extends StatelessWidget {
 =======
                 height: (334/844)*height,
 >>>>>>> 78625753cc786bcc2cc0428dedbe2386a0f59465
+=======
+                height: (234/844)*height,
+>>>>>>> 150e31a (first part)
                 width: (298/390)*width,
                 decoration: BoxDecoration(
                   color: Colors.white,
@@ -65,11 +73,15 @@ class TakeATest extends StatelessWidget {
                             children: [
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 150e31a (first part)
                               const Text(
                                 "Test",
                                 style: TextStyle(
                                   color: Colors.black,
                                   fontSize: 28,
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 78625753cc786bcc2cc0428dedbe2386a0f59465
@@ -82,6 +94,8 @@ class TakeATest extends StatelessWidget {
 >>>>>>> 7862575 (last update Before dev changes)
 =======
 >>>>>>> 78625753cc786bcc2cc0428dedbe2386a0f59465
+=======
+>>>>>>> 150e31a (first part)
                                   fontFamily: AppStrings.fontFamily2,
                                   fontWeight: FontWeight.w600,
                                   fontStyle: FontStyle.normal
@@ -104,6 +118,7 @@ class TakeATest extends StatelessWidget {
                               style: TextStyle(
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                                 color: HexColor("#000000"),
                                 fontSize: 19,
 =======
@@ -114,6 +129,10 @@ class TakeATest extends StatelessWidget {
                                 color: HexColor("#999999"),
                                 fontSize: 12.08,
 >>>>>>> 78625753cc786bcc2cc0428dedbe2386a0f59465
+=======
+                                color: HexColor("#000000"),
+                                fontSize: 19,
+>>>>>>> 150e31a (first part)
                                 fontFamily: AppStrings.fontFamily2,
                                 fontWeight: FontWeight.w400,
                                 fontStyle: FontStyle.normal
@@ -133,6 +152,9 @@ class TakeATest extends StatelessWidget {
                           height: (60/844)*height,
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 150e31a (first part)
                           gradient: LinearGradient(
                             begin: Alignment.centerRight,
                             end: Alignment.centerLeft,
@@ -141,10 +163,13 @@ class TakeATest extends StatelessWidget {
                               AppColors.secondaryButton,
                               ]
                             ),
+<<<<<<< HEAD
 =======
 >>>>>>> 7862575 (last update Before dev changes)
 =======
 >>>>>>> 78625753cc786bcc2cc0428dedbe2386a0f59465
+=======
+>>>>>>> 150e31a (first part)
                           borderRadius: BorderRadius.circular(5),
                           child:Text(
                             "Take A Test",

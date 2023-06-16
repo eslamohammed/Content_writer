@@ -1,5 +1,6 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 // ignore_for_file: unused_field
 
@@ -8,18 +9,23 @@
 // ignore_for_file: unused_field
 
 >>>>>>> 78625753cc786bcc2cc0428dedbe2386a0f59465
+=======
+>>>>>>> 150e31a (first part)
 import 'package:content_writer/src/core/utils/app_strings.dart';
 import 'package:content_writer/src/core/utils/widget/profile_setup_input_field.dart';
 import 'package:content_writer/src/features/submittedScreen/presentation/screens/submittedScreen.dart';
 import 'package:flutter/material.dart';
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 import 'package:image_picker/image_picker.dart';
 >>>>>>> 7862575 (last update Before dev changes)
 =======
 import 'package:image_picker/image_picker.dart';
 >>>>>>> 78625753cc786bcc2cc0428dedbe2386a0f59465
+=======
+>>>>>>> 150e31a (first part)
 
 import '../../../../core/utils/app_colors.dart';
 import '../../../../core/utils/hex_color.dart';
@@ -35,6 +41,7 @@ class SubmitTestScreen extends StatefulWidget {
 class _SubmitTestScreenState extends State<SubmitTestScreen> {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 78625753cc786bcc2cc0428dedbe2386a0f59465
@@ -47,6 +54,8 @@ class _SubmitTestScreenState extends State<SubmitTestScreen> {
 >>>>>>> 7862575 (last update Before dev changes)
 =======
 >>>>>>> 78625753cc786bcc2cc0428dedbe2386a0f59465
+=======
+>>>>>>> 150e31a (first part)
   @override
   Widget build(BuildContext context) {
     return Scaffold(body: _submitTest(context));
@@ -73,6 +82,7 @@ class _SubmitTestScreenState extends State<SubmitTestScreen> {
                     color: HexColor("#FFFFFF"),
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     fontSize: 25,
 =======
                     fontSize: 18,
@@ -80,6 +90,9 @@ class _SubmitTestScreenState extends State<SubmitTestScreen> {
 =======
                     fontSize: 18,
 >>>>>>> 78625753cc786bcc2cc0428dedbe2386a0f59465
+=======
+                    fontSize: 25,
+>>>>>>> 150e31a (first part)
                     fontFamily: AppStrings.fontFamily2,
                     fontWeight: FontWeight.w600,
                     fontStyle: FontStyle.normal
@@ -97,11 +110,15 @@ class _SubmitTestScreenState extends State<SubmitTestScreen> {
                       children: [
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 150e31a (first part)
                         const Text(
                           "Test",
                           style: TextStyle(
                             color: Colors.white,
                             fontSize: 28,
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 78625753cc786bcc2cc0428dedbe2386a0f59465
@@ -114,11 +131,14 @@ class _SubmitTestScreenState extends State<SubmitTestScreen> {
 >>>>>>> 7862575 (last update Before dev changes)
 =======
 >>>>>>> 78625753cc786bcc2cc0428dedbe2386a0f59465
+=======
+>>>>>>> 150e31a (first part)
                             fontFamily: AppStrings.fontFamily2,
                             fontWeight: FontWeight.w600,
                             fontStyle: FontStyle.normal
                           ),
                         ),
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
                         Padding(
@@ -128,6 +148,9 @@ class _SubmitTestScreenState extends State<SubmitTestScreen> {
 =======
                         Padding(//Icon
 >>>>>>> 78625753cc786bcc2cc0428dedbe2386a0f59465
+=======
+                        Padding(
+>>>>>>> 150e31a (first part)
                           padding: const EdgeInsets.only(right:12.5),
                           child: IconButton(
                             onPressed: (){
@@ -136,24 +159,31 @@ class _SubmitTestScreenState extends State<SubmitTestScreen> {
                             icon: Icon(Icons.info_outline),
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
                             color: HexColor("#FFFFFF"),
 >>>>>>> 7862575 (last update Before dev changes)
 =======
                             color: HexColor("#FFFFFF"),
 >>>>>>> 78625753cc786bcc2cc0428dedbe2386a0f59465
+=======
+>>>>>>> 150e31a (first part)
                           ),
                         ),
                       ],
                     ),
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 150e31a (first part)
                     Padding(
                       padding: const EdgeInsets.only(top:4.0,bottom: 15),
                       child: Text("Create a brand identity copy for a fashion brand. Targe audience are 18 - 32 yrs and location is based in bangalore",
                         style: TextStyle(
                           color: Colors.white,
                           fontSize: 19,
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 78625753cc786bcc2cc0428dedbe2386a0f59465
@@ -167,6 +197,8 @@ class _SubmitTestScreenState extends State<SubmitTestScreen> {
 >>>>>>> 7862575 (last update Before dev changes)
 =======
 >>>>>>> 78625753cc786bcc2cc0428dedbe2386a0f59465
+=======
+>>>>>>> 150e31a (first part)
                           fontFamily: AppStrings.fontFamily2,
                           fontWeight: FontWeight.w400,
                           fontStyle: FontStyle.normal
@@ -201,6 +233,7 @@ class _SubmitTestScreenState extends State<SubmitTestScreen> {
                         child: SizedBox(                          
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                           height: (13/844)*height,
 =======
                           height: (25/844)*height,
@@ -208,10 +241,14 @@ class _SubmitTestScreenState extends State<SubmitTestScreen> {
 =======
                           height: (25/844)*height,
 >>>>>>> 78625753cc786bcc2cc0428dedbe2386a0f59465
+=======
+                          height: (13/844)*height,
+>>>>>>> 150e31a (first part)
                           width: (152/390)*width,
                           child: Text("Upload size must be less than 10MB",
                             style: TextStyle(
                               color: HexColor("#666666"),
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
                               fontSize: 12.8,
@@ -221,6 +258,9 @@ class _SubmitTestScreenState extends State<SubmitTestScreen> {
 =======
                               fontSize: 8.63,
 >>>>>>> 78625753cc786bcc2cc0428dedbe2386a0f59465
+=======
+                              fontSize: 12.8,
+>>>>>>> 150e31a (first part)
                               fontFamily: AppStrings.fontFamily2,
                               fontWeight: FontWeight.w400,
                               fontStyle: FontStyle.normal
@@ -232,6 +272,7 @@ class _SubmitTestScreenState extends State<SubmitTestScreen> {
               
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     Center(//Submit test Button
 =======
                       Center(//Submit test Button
@@ -239,12 +280,18 @@ class _SubmitTestScreenState extends State<SubmitTestScreen> {
 =======
                       Center(//Submit test Button
 >>>>>>> 78625753cc786bcc2cc0428dedbe2386a0f59465
+=======
+                    Center(//Submit test Button
+>>>>>>> 150e31a (first part)
                       child: Padding(
                         padding: const EdgeInsets.only(top : 10.0),
                         child: PrimaryButton(
                           width: (238/390)*width,
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 150e31a (first part)
                           height: (41/844)*height,
                           //height: (48),
                           gradient: LinearGradient(
@@ -255,18 +302,22 @@ class _SubmitTestScreenState extends State<SubmitTestScreen> {
                               AppColors.secondaryButton,
                               ]
                             ),
+<<<<<<< HEAD
 =======
                           //height: (41/844)*height,
 >>>>>>> 7862575 (last update Before dev changes)
 =======
                           //height: (41/844)*height,
 >>>>>>> 78625753cc786bcc2cc0428dedbe2386a0f59465
+=======
+>>>>>>> 150e31a (first part)
                           borderRadius: BorderRadius.circular(5),
                           child:Text(
                             "Submit Test",
                             style: TextStyle(
                               color: Colors.white,
                               //fontWeight: FontWeight.bold,
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
                               fontSize: 18,
@@ -276,6 +327,9 @@ class _SubmitTestScreenState extends State<SubmitTestScreen> {
 =======
                               fontSize: 12.08,
 >>>>>>> 78625753cc786bcc2cc0428dedbe2386a0f59465
+=======
+                              fontSize: 18,
+>>>>>>> 150e31a (first part)
                               fontFamily: AppStrings.fontFamily2,
                               fontWeight: FontWeight.w400,
                             ),
@@ -288,6 +342,7 @@ class _SubmitTestScreenState extends State<SubmitTestScreen> {
                       ),
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     ),
 =======
                     ),                  
@@ -295,6 +350,9 @@ class _SubmitTestScreenState extends State<SubmitTestScreen> {
 =======
                     ),                  
 >>>>>>> 78625753cc786bcc2cc0428dedbe2386a0f59465
+=======
+                    ),
+>>>>>>> 150e31a (first part)
                   ],
                 ),
               ),  
@@ -306,6 +364,9 @@ class _SubmitTestScreenState extends State<SubmitTestScreen> {
   }
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 150e31a (first part)
 }
 
 /*
@@ -362,6 +423,7 @@ class _SubmitTestScreenState extends State<SubmitTestScreen> {
           
 
 
+<<<<<<< HEAD
  */
 =======
 =======
@@ -384,3 +446,6 @@ class _SubmitTestScreenState extends State<SubmitTestScreen> {
 =======
 }
 >>>>>>> 78625753cc786bcc2cc0428dedbe2386a0f59465
+=======
+ */
+>>>>>>> 150e31a (first part)
