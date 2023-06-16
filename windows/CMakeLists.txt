@@ -1,18 +1,24 @@
 # Project-level configuration.
 cmake_minimum_required(VERSION 3.14)
 <<<<<<< HEAD
+<<<<<<< HEAD
 project(car_booking LANGUAGES CXX)
 
 # The name of the executable created for the application. Change this to change
 # the on-disk name of your application.
 set(BINARY_NAME "car_booking")
 =======
+=======
+>>>>>>> 78625753cc786bcc2cc0428dedbe2386a0f59465
 project(content_writer LANGUAGES CXX)
 
 # The name of the executable created for the application. Change this to change
 # the on-disk name of your application.
 set(BINARY_NAME "content_writer")
+<<<<<<< HEAD
 >>>>>>> 7862575 (last update Before dev changes)
+=======
+>>>>>>> 78625753cc786bcc2cc0428dedbe2386a0f59465
 
 # Explicitly opt in to modern CMake behaviors to avoid warnings with recent
 # versions of CMake.

@@ -10,10 +10,14 @@ ThemeData appTheame(){
     brightness: Brightness.light,
     scaffoldBackgroundColor: Colors.white,
 <<<<<<< HEAD
+<<<<<<< HEAD
     fontFamily: AppStrings.fontFamily,
 =======
     fontFamily: AppStrings.fontFamily2,
 >>>>>>> 7862575 (last update Before dev changes)
+=======
+    fontFamily: AppStrings.fontFamily2,
+>>>>>>> 78625753cc786bcc2cc0428dedbe2386a0f59465
 
 
 

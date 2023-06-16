@@ -28,10 +28,14 @@ int APIENTRY wWinMain(_In_ HINSTANCE instance, _In_opt_ HINSTANCE prev,
   Win32Window::Point origin(10, 10);
   Win32Window::Size size(1280, 720);
 <<<<<<< HEAD
+<<<<<<< HEAD
   if (!window.Create(L"car_booking", origin, size)) {
 =======
   if (!window.Create(L"content_writer", origin, size)) {
 >>>>>>> 7862575 (last update Before dev changes)
+=======
+  if (!window.Create(L"content_writer", origin, size)) {
+>>>>>>> 78625753cc786bcc2cc0428dedbe2386a0f59465
     return EXIT_FAILURE;
   }
   window.SetQuitOnClose(true);

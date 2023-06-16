@@ -41,18 +41,24 @@ static void my_application_activate(GApplication* application) {
     GtkHeaderBar* header_bar = GTK_HEADER_BAR(gtk_header_bar_new());
     gtk_widget_show(GTK_WIDGET(header_bar));
 <<<<<<< HEAD
+<<<<<<< HEAD
     gtk_header_bar_set_title(header_bar, "car_booking");
     gtk_header_bar_set_show_close_button(header_bar, TRUE);
     gtk_window_set_titlebar(window, GTK_WIDGET(header_bar));
   } else {
     gtk_window_set_title(window, "car_booking");
 =======
+=======
+>>>>>>> 78625753cc786bcc2cc0428dedbe2386a0f59465
     gtk_header_bar_set_title(header_bar, "content_writer");
     gtk_header_bar_set_show_close_button(header_bar, TRUE);
     gtk_window_set_titlebar(window, GTK_WIDGET(header_bar));
   } else {
     gtk_window_set_title(window, "content_writer");
+<<<<<<< HEAD
 >>>>>>> 7862575 (last update Before dev changes)
+=======
+>>>>>>> 78625753cc786bcc2cc0428dedbe2386a0f59465
   }
 
   gtk_window_set_default_size(window, 1280, 720);

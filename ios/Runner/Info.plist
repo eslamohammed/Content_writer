@@ -6,10 +6,14 @@
 	<string>$(DEVELOPMENT_LANGUAGE)</string>
 	<key>CFBundleDisplayName</key>
 <<<<<<< HEAD
+<<<<<<< HEAD
 	<string>Car Booking</string>
 =======
 	<string>Content Writer</string>
 >>>>>>> 7862575 (last update Before dev changes)
+=======
+	<string>Content Writer</string>
+>>>>>>> 78625753cc786bcc2cc0428dedbe2386a0f59465
 	<key>CFBundleExecutable</key>
 	<string>$(EXECUTABLE_NAME)</string>
 	<key>CFBundleIdentifier</key>

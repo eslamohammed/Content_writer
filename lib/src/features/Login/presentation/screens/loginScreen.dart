@@ -7,14 +7,20 @@ import 'package:content_writer/src/core/utils/hex_color.dart';
 import 'package:content_writer/src/core/utils/widget/customInputText.dart';
 import 'package:content_writer/src/core/utils/widget/primaryButton.dart';
 <<<<<<< HEAD
+<<<<<<< HEAD
 import 'package:content_writer/src/features/Login/presentation/screens/auth_input_field.dart';
 import 'package:content_writer/src/features/register/presentation/screens/registerScreen.dart';
 =======
+=======
+>>>>>>> 78625753cc786bcc2cc0428dedbe2386a0f59465
 
 import 'package:content_writer/src/features/Login/presentation/widgets/phone_number_picker.dart';
 import 'package:content_writer/src/features/register/presentation/screens/registerScreen.dart';
 import 'package:content_writer/src/features/setupProfile/presentation/screens/setupPofile.dart';
+<<<<<<< HEAD
 >>>>>>> 7862575 (last update Before dev changes)
+=======
+>>>>>>> 78625753cc786bcc2cc0428dedbe2386a0f59465
 import 'package:flutter/gestures.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
@@ -31,16 +37,22 @@ class ContentWriterLoginScreen extends StatefulWidget{
 class _ContentWriterLoginScreen extends State<ContentWriterLoginScreen>{
 
 <<<<<<< HEAD
+<<<<<<< HEAD
     String currentOption = options[0];  
 
     final formKey = GlobalKey<FormState>();
 =======
+=======
+>>>>>>> 78625753cc786bcc2cc0428dedbe2386a0f59465
     int? selectedvalue = 1;
     int? selectedvalue2 = 1;
 
     final formKey = GlobalKey<FormState>();
 
+<<<<<<< HEAD
 >>>>>>> 7862575 (last update Before dev changes)
+=======
+>>>>>>> 78625753cc786bcc2cc0428dedbe2386a0f59465
     final TextEditingController _phoneTextEditingController = TextEditingController();
 
   @override
@@ -197,6 +209,7 @@ class _ContentWriterLoginScreen extends State<ContentWriterLoginScreen>{
                 
                         //User name
 <<<<<<< HEAD
+<<<<<<< HEAD
                         CustomInputTextField(
                           controller: _phoneTextEditingController,
                           hintText: "333 333 333",
@@ -218,6 +231,8 @@ class _ContentWriterLoginScreen extends State<ContentWriterLoginScreen>{
                                     style: TextStyle(
                                       //height: 3/18,
 =======
+=======
+>>>>>>> 78625753cc786bcc2cc0428dedbe2386a0f59465
 /*                        Container(
                           width: width*0.5,
                           child: CustomInputTextField(
@@ -275,7 +290,10 @@ class _ContentWriterLoginScreen extends State<ContentWriterLoginScreen>{
                             ),
                                     Text("I Agree to ",
                                     style: TextStyle(
+<<<<<<< HEAD
 >>>>>>> 7862575 (last update Before dev changes)
+=======
+>>>>>>> 78625753cc786bcc2cc0428dedbe2386a0f59465
                                       color: HexColor("#B7B7B7"),
                                       fontSize: 12,
                                       fontFamily: AppStrings.fontFamily2,
@@ -285,9 +303,12 @@ class _ContentWriterLoginScreen extends State<ContentWriterLoginScreen>{
                                     ),Text("Term & Condition",
                                     style: TextStyle(
 <<<<<<< HEAD
+<<<<<<< HEAD
                                       //height: 3/18,
 =======
 >>>>>>> 7862575 (last update Before dev changes)
+=======
+>>>>>>> 78625753cc786bcc2cc0428dedbe2386a0f59465
                                       color: HexColor("#FFFFFF"),
                                       fontSize: 12,
                                       fontFamily: AppStrings.fontFamily2,
@@ -297,9 +318,12 @@ class _ContentWriterLoginScreen extends State<ContentWriterLoginScreen>{
                                     ),Text(" and ",
                                     style: TextStyle(
 <<<<<<< HEAD
+<<<<<<< HEAD
                                       //height: 3/18,
 =======
 >>>>>>> 7862575 (last update Before dev changes)
+=======
+>>>>>>> 78625753cc786bcc2cc0428dedbe2386a0f59465
                                       color: HexColor("#B7B7B7"),
                                       fontSize: 12,
                                       fontFamily: AppStrings.fontFamily2,
@@ -310,9 +334,12 @@ class _ContentWriterLoginScreen extends State<ContentWriterLoginScreen>{
                                     Text("Privacy Policy.",
                                     style: TextStyle(
 <<<<<<< HEAD
+<<<<<<< HEAD
                                       //height: 3/18,
 =======
 >>>>>>> 7862575 (last update Before dev changes)
+=======
+>>>>>>> 78625753cc786bcc2cc0428dedbe2386a0f59465
                                       color: HexColor("#FFFFFF"),
                                       fontSize: 12,
                                       fontFamily: AppStrings.fontFamily2,
@@ -322,6 +349,7 @@ class _ContentWriterLoginScreen extends State<ContentWriterLoginScreen>{
                                     ),
                                   ],
                                 ),
+<<<<<<< HEAD
 <<<<<<< HEAD
                                 value: options[1],
                                 groupValue: currentOption,
@@ -375,6 +403,8 @@ class _ContentWriterLoginScreen extends State<ContentWriterLoginScreen>{
                                 ]
                               ),
 =======
+=======
+>>>>>>> 78625753cc786bcc2cc0428dedbe2386a0f59465
                       ),
                         
                       Padding(//remember me
@@ -417,7 +447,10 @@ class _ContentWriterLoginScreen extends State<ContentWriterLoginScreen>{
                           child: PrimaryButton(
                             width: (300/390)*width,
                             height: (60/844)*height,
+<<<<<<< HEAD
 >>>>>>> 7862575 (last update Before dev changes)
+=======
+>>>>>>> 78625753cc786bcc2cc0428dedbe2386a0f59465
                             borderRadius: BorderRadius.circular(5),
                             child:Text(
                               "Log In",
@@ -435,10 +468,14 @@ class _ContentWriterLoginScreen extends State<ContentWriterLoginScreen>{
                           ),
                         ),
 <<<<<<< HEAD
+<<<<<<< HEAD
                       Container(
 =======
                       Container(//dont have
 >>>>>>> 7862575 (last update Before dev changes)
+=======
+                      Container(//dont have
+>>>>>>> 78625753cc786bcc2cc0428dedbe2386a0f59465
                         height: height*0.05,
                         child: Align(//Don't have an account ==> Sign Up
                           alignment: Alignment.center,
@@ -474,13 +511,19 @@ class _ContentWriterLoginScreen extends State<ContentWriterLoginScreen>{
                                     ..onTap = () {
                                     //Navigator.pushNamed(context, "/register");
 <<<<<<< HEAD
+<<<<<<< HEAD
                                     Navigator.push(context,MaterialPageRoute(builder: (context) => RegisterScreen()));
 =======
+=======
+>>>>>>> 78625753cc786bcc2cc0428dedbe2386a0f59465
                                     //my screen
                                     Navigator.push(context,MaterialPageRoute(builder: (context) => RegisterScreen()));
                                     //forign screen
                                     //Navigator.push(context,MaterialPageRoute(builder: (context) => SetupYourProfile()));
+<<<<<<< HEAD
 >>>>>>> 7862575 (last update Before dev changes)
+=======
+>>>>>>> 78625753cc786bcc2cc0428dedbe2386a0f59465
                                   }
                                 ),
                               ],

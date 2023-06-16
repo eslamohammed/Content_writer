@@ -10,9 +10,12 @@ import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 //import 'package:car_booking/main.dart';
 =======
 >>>>>>> 7862575 (last update Before dev changes)
+=======
+>>>>>>> 78625753cc786bcc2cc0428dedbe2386a0f59465
 
 void main() {
   testWidgets('Counter increments smoke test', (WidgetTester tester) async {

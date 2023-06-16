@@ -4,9 +4,13 @@
 
 list(APPEND FLUTTER_PLUGIN_LIST
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
   file_selector_linux
 >>>>>>> 7862575 (last update Before dev changes)
+=======
+  file_selector_linux
+>>>>>>> 78625753cc786bcc2cc0428dedbe2386a0f59465
 )
 
 list(APPEND FLUTTER_FFI_PLUGIN_LIST

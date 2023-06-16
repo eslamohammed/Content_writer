@@ -18,8 +18,11 @@ class PrimaryButton extends StatelessWidget {
     this.width,
     this.height = 44.0,
 <<<<<<< HEAD
+<<<<<<< HEAD
     this.gradient = const LinearGradient(colors: [Colors.white, Colors.white]),
 =======
+=======
+>>>>>>> 78625753cc786bcc2cc0428dedbe2386a0f59465
     this.gradient = const
      LinearGradient(
           begin: Alignment(0.0, 0.0),
@@ -30,7 +33,10 @@ class PrimaryButton extends StatelessWidget {
           ],
         ),
      //LinearGradient(colors: [Colors.white, Colors.white]),
+<<<<<<< HEAD
 >>>>>>> 7862575 (last update Before dev changes)
+=======
+>>>>>>> 78625753cc786bcc2cc0428dedbe2386a0f59465
   }) : super(key: key);
 
   @override
