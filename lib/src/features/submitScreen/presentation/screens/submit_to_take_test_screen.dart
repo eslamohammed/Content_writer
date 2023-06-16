@@ -90,6 +90,23 @@ Widget _takeTest(BuildContext context){
                           width: (126.8/390)*width,
                           height: (44.17/844)*height,
                           //height: (48),
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+                          gradient: LinearGradient(colors: [Colors.white, Colors.white]),
+>>>>>>> 7862575 (last update Before dev changes)
+=======
+                          gradient: LinearGradient(colors: [Colors.white, Colors.white]),
+>>>>>>> 78625753cc786bcc2cc0428dedbe2386a0f59465
+=======
+>>>>>>> 150e31a (first part)
+=======
+=======
+                          gradient: LinearGradient(colors: [Colors.white, Colors.white]),
+>>>>>>> 7862575 (last update Before dev changes)
+>>>>>>> b0a2838 (removed merge conflicts)
                           borderRadius: BorderRadius.circular(5),
                           child:Text(
                             "Take Test",

@@ -4,6 +4,23 @@ import 'package:content_writer/src/core/utils/app_strings.dart';
 import 'package:content_writer/src/core/utils/hex_color.dart';
 import 'package:content_writer/src/core/utils/widget/primaryButton.dart';
 import 'package:content_writer/src/features/Login/presentation/screens/loginScreen.dart';
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+import 'package:content_writer/src/features/setupProfile/presentation/screens/profile_setup_screen.dart';
+>>>>>>> 7862575 (last update Before dev changes)
+=======
+import 'package:content_writer/src/features/setupProfile/presentation/screens/profile_setup_screen.dart';
+>>>>>>> 78625753cc786bcc2cc0428dedbe2386a0f59465
+=======
+>>>>>>> 150e31a (first part)
+=======
+=======
+import 'package:content_writer/src/features/setupProfile/presentation/screens/profile_setup_screen.dart';
+>>>>>>> 7862575 (last update Before dev changes)
+>>>>>>> b0a2838 (removed merge conflicts)
 import 'package:content_writer/src/features/setupProfile/presentation/screens/setupPofile.dart';
 import 'package:flutter/gestures.dart';
 import 'package:flutter/material.dart';
@@ -19,10 +36,43 @@ class RegisterScreen extends StatefulWidget {
   State<RegisterScreen> createState() => _RegisterScreenState();
 }
 
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 150e31a (first part)
+=======
+>>>>>>> b0a2838 (removed merge conflicts)
   List<String> options = ["I Agree to Term & Condition and Privacy Policy",""];
 
 class _RegisterScreenState extends State<RegisterScreen> {
   String currentOption = options[0];
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 78625753cc786bcc2cc0428dedbe2386a0f59465
+=======
+=======
+>>>>>>> b0a2838 (removed merge conflicts)
+//  List<String> options = ["I Agree to Term & Condition and Privacy Policy",""];
+
+class _RegisterScreenState extends State<RegisterScreen> {
+//  String currentOption = options[0];
+    int? selectedvalue = 1;
+    int? selectedvalue2 = 1;
+
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 7862575 (last update Before dev changes)
+=======
+>>>>>>> 78625753cc786bcc2cc0428dedbe2386a0f59465
+=======
+>>>>>>> 150e31a (first part)
+=======
+>>>>>>> 7862575 (last update Before dev changes)
+>>>>>>> b0a2838 (removed merge conflicts)
 
   final TextEditingController _nameTextEditingController =
       TextEditingController();
@@ -113,12 +163,32 @@ class _RegisterScreenState extends State<RegisterScreen> {
               ),
               Container(
                 width: width,
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 150e31a (first part)
+=======
+>>>>>>> b0a2838 (removed merge conflicts)
                 //height: height*(462/878),
 //                height: height*(496.81/878),
 /*                decoration: BoxDecoration(
                   color: Colors.blue
                 ),
 */
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 7862575 (last update Before dev changes)
+=======
+>>>>>>> 78625753cc786bcc2cc0428dedbe2386a0f59465
+=======
+>>>>>>> 150e31a (first part)
+=======
+=======
+>>>>>>> 7862575 (last update Before dev changes)
+>>>>>>> b0a2838 (removed merge conflicts)
                 child: Column(
                   crossAxisAlignment: CrossAxisAlignment.start,
                   mainAxisAlignment: MainAxisAlignment.start,
@@ -159,6 +229,14 @@ class _RegisterScreenState extends State<RegisterScreen> {
                       //icon: Icons.email_outlined,
                       fillColor: AppColors.inputColor,
                     ),
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 150e31a (first part)
+=======
+>>>>>>> b0a2838 (removed merge conflicts)
                     
 
                     Padding(
@@ -245,12 +323,133 @@ class _RegisterScreenState extends State<RegisterScreen> {
                       ),
                     ),
 
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 78625753cc786bcc2cc0428dedbe2386a0f59465
+=======
+=======
+>>>>>>> b0a2838 (removed merge conflicts)
+
+                                          // RADIO BUTTON
+                      
+                    Padding(//term & condition and privcy policy
+                        padding: const EdgeInsets.only(top:20.0,bottom: 10.0,left:15),
+                        child: Row(
+                          mainAxisAlignment: MainAxisAlignment.start,
+                          children: [
+                            Transform.scale(
+                              scale: 1,
+                              child: Radio<int>(
+                                value: 0,
+                                toggleable: true,
+                                materialTapTargetSize: MaterialTapTargetSize.shrinkWrap,
+                                groupValue: selectedvalue,
+                                onChanged: (value){
+                                  setState(() {
+                                    selectedvalue = value;
+                                    print(value);
+                                  });
+                                },
+                              ),
+                            ),
+                                    Text("I Agree to ",
+                                    style: TextStyle(
+                                      color: HexColor("#B7B7B7"),
+                                      fontSize: 12,
+                                      fontFamily: AppStrings.fontFamily2,
+                                      fontWeight: FontWeight.w400,
+                                      fontStyle: FontStyle.normal
+                                      ),
+                                    ),Text("Term & Condition",
+                                    style: TextStyle(
+                                      color: HexColor("#FFFFFF"),
+                                      fontSize: 12,
+                                      fontFamily: AppStrings.fontFamily2,
+                                      fontWeight: FontWeight.w400,
+                                      fontStyle: FontStyle.normal
+                                      ),
+                                    ),Text(" and ",
+                                    style: TextStyle(
+                                      color: HexColor("#B7B7B7"),
+                                      fontSize: 12,
+                                      fontFamily: AppStrings.fontFamily2,
+                                      fontWeight: FontWeight.w400,
+                                      fontStyle: FontStyle.normal
+                                      ),
+                                    ),
+                                    Text("Privacy Policy.",
+                                    style: TextStyle(
+                                      color: HexColor("#FFFFFF"),
+                                      fontSize: 12,
+                                      fontFamily: AppStrings.fontFamily2,
+                                      fontWeight: FontWeight.w400,
+                                      fontStyle: FontStyle.normal
+                                      ),
+                                    ),
+                                  ],
+                                ),
+                      ),
+                        
+                    Padding(//remember me
+                        padding: const EdgeInsets.only(top:20.0,bottom: 10.0,left:15),
+                        child: Row(
+                          mainAxisAlignment: MainAxisAlignment.start,
+                          children: [
+                            Transform.scale(
+                              scale: 1,
+                              child: Radio<int>(
+                                value: 0,
+                                toggleable: true,
+                                materialTapTargetSize: MaterialTapTargetSize.shrinkWrap,
+                                groupValue: selectedvalue2,
+                                onChanged: (value){
+                                  setState(() {
+                                    selectedvalue2 = value;
+                                    print(value);
+                                  });
+                                },
+                              ),
+                            ),
+                            Text("Remember me",
+                                  style: TextStyle(
+                                    //height: 3/18,
+                                    color: HexColor("#B7B7B7"),
+                                    fontSize: 12,
+                                    fontFamily: AppStrings.fontFamily2,
+                                    fontWeight: FontWeight.w400,
+                                    fontStyle: FontStyle.normal
+                                    ),
+                                  ),    
+                                ],
+                              ),
+                      ),
+                    
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 7862575 (last update Before dev changes)
+=======
+>>>>>>> 78625753cc786bcc2cc0428dedbe2386a0f59465
+=======
+>>>>>>> 150e31a (first part)
+=======
+>>>>>>> 7862575 (last update Before dev changes)
+>>>>>>> b0a2838 (removed merge conflicts)
                     Center(//Primary Sign Up Button
                       child: Padding(
                         padding: const EdgeInsets.only(top : 10.0),
                         child: PrimaryButton(
                           width: (345.79/390)*width,
                           height: (60/844)*height,
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 150e31a (first part)
+=======
+>>>>>>> b0a2838 (removed merge conflicts)
                           //height: (48),
                           gradient: LinearGradient(
                             begin: Alignment.centerRight,
@@ -260,6 +459,18 @@ class _RegisterScreenState extends State<RegisterScreen> {
                               AppColors.secondaryButton,
                               ]
                             ),
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 7862575 (last update Before dev changes)
+=======
+>>>>>>> 78625753cc786bcc2cc0428dedbe2386a0f59465
+=======
+>>>>>>> 150e31a (first part)
+=======
+=======
+>>>>>>> 7862575 (last update Before dev changes)
+>>>>>>> b0a2838 (removed merge conflicts)
                           borderRadius: BorderRadius.circular(5),
                           child:Text(
                             "Sign Up",
@@ -273,7 +484,26 @@ class _RegisterScreenState extends State<RegisterScreen> {
                           ),
                           onPressed: () => {
                             // call api function to be procced
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
                             Navigator.push(context, MaterialPageRoute(builder: ((context) => SetupProfile())))
+=======
+                            Navigator.push(context, MaterialPageRoute(builder: ((context) => ProfileSetUp())))
+>>>>>>> 7862575 (last update Before dev changes)
+=======
+                            Navigator.push(context, MaterialPageRoute(builder: ((context) => ProfileSetUp())))
+>>>>>>> 78625753cc786bcc2cc0428dedbe2386a0f59465
+=======
+                            Navigator.push(context, MaterialPageRoute(builder: ((context) => SetupProfile())))
+>>>>>>> 150e31a (first part)
+=======
+                            Navigator.push(context, MaterialPageRoute(builder: ((context) => SetupProfile())))
+=======
+                            Navigator.push(context, MaterialPageRoute(builder: ((context) => ProfileSetUp())))
+>>>>>>> 7862575 (last update Before dev changes)
+>>>>>>> b0a2838 (removed merge conflicts)
                           },
                         ),
                       ),

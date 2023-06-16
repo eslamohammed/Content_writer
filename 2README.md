@@ -1,9 +1,4 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> b0a2838 (removed merge conflicts)
-# car_booking
+# content_writer
 
 A new Flutter project.
 
@@ -19,12 +14,3 @@ A few resources to get you started if this is your first Flutter project:
 For help getting started with Flutter development, view the
 [online documentation](https://docs.flutter.dev/), which offers tutorials,
 samples, guidance on mobile development, and a full API reference.
-=======
-# Content_Frontend
->>>>>>> 7862575 (last update Before dev changes)
-<<<<<<< HEAD
-=======
-# Content_Frontend
->>>>>>> 78625753cc786bcc2cc0428dedbe2386a0f59465
-=======
->>>>>>> b0a2838 (removed merge conflicts)

@@ -11,11 +11,41 @@ dependencies:
   bloc: ^8.1.2
   cupertino_icons: ^1.0.2
   equatable: ^2.0.5
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> b0a2838 (removed merge conflicts)
   fl_country_code_picker: ^0.1.2
+=======
+  fl_country_code_picker: ^0.1.0+3
+
+>>>>>>> 7862575 (last update Before dev changes)
+<<<<<<< HEAD
+=======
+  fl_country_code_picker: ^0.1.0+3
+
+>>>>>>> 78625753cc786bcc2cc0428dedbe2386a0f59465
+=======
+>>>>>>> b0a2838 (removed merge conflicts)
   flutter:
     sdk: flutter
   flutter_screenutil: ^5.8.4
   snippet_coder_utils: ^1.0.14
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+  image_picker: ^0.8.6
+>>>>>>> 7862575 (last update Before dev changes)
+=======
+  image_picker: ^0.8.6
+>>>>>>> 78625753cc786bcc2cc0428dedbe2386a0f59465
+=======
+=======
+  image_picker: ^0.8.6
+>>>>>>> 7862575 (last update Before dev changes)
+>>>>>>> b0a2838 (removed merge conflicts)
 
 dev_dependencies:
   flutter_lints: ^2.0.0
@@ -28,11 +58,30 @@ flutter:
   # To add assets to your application, add an assets section, like this:
   assets:
     - assets/images/Background.png
+<<<<<<< HEAD
+<<<<<<< HEAD
     - assets/images/Group.png
     - assets/images/upload.png
 
 
+=======
+    - assets/images/Background1.png
+    - assets/images/Background2.png
+    - assets/images/P1.png
+    - assets/images/Group.png
+>>>>>>> 9b6515d (Log in page and sign up page are aproximately finish, they are about to done assets is tracked)
+=======
+    - assets/images/Group.png
+    - assets/images/upload.png
+
+
+>>>>>>> 150e31a (first part)
   fonts:
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> b0a2838 (removed merge conflicts)
     - family: Tajawal
       fonts:
         - asset: assets/fonts/Tajawal-Black.ttf
@@ -50,6 +99,13 @@ flutter:
         - asset: assets/fonts/Tajawal-ExtraLight.ttf
           weight: 200
 
+=======
+>>>>>>> 7862575 (last update Before dev changes)
+<<<<<<< HEAD
+=======
+>>>>>>> 78625753cc786bcc2cc0428dedbe2386a0f59465
+=======
+>>>>>>> b0a2838 (removed merge conflicts)
     - family: Poppins
       fonts:
         - asset: assets/fonts/Poppins-Black.ttf

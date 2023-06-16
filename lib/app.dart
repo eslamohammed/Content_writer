@@ -1,7 +1,31 @@
+<<<<<<< HEAD
+<<<<<<< HEAD
 // ignore_for_file: unused_import
 
+=======
+>>>>>>> 9b6515d (Log in page and sign up page are aproximately finish, they are about to done assets is tracked)
+=======
+// ignore_for_file: unused_import
+
+>>>>>>> 150e31a (first part)
 import 'package:content_writer/src/core/utils/app_strings.dart';
 import 'package:flutter/material.dart';
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> b0a2838 (removed merge conflicts)
+=======
+import 'package:fl_country_code_picker/fl_country_code_picker.dart' as flc;
+import 'package:flutter_localizations/flutter_localizations.dart';
+>>>>>>> 7862575 (last update Before dev changes)
+<<<<<<< HEAD
+=======
+import 'package:fl_country_code_picker/fl_country_code_picker.dart' as flc;
+import 'package:flutter_localizations/flutter_localizations.dart';
+>>>>>>> 78625753cc786bcc2cc0428dedbe2386a0f59465
+=======
+>>>>>>> b0a2838 (removed merge conflicts)
 
 import 'src/features/Login/presentation/screens/loginScreen.dart';
 import 'src/features/register/presentation/screens/registerScreen.dart';
@@ -17,14 +41,50 @@ class ContentWriter extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       title: AppStrings.AppName ,
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
       debugShowCheckedModeBanner: false,
+=======
+=======
+>>>>>>> 78625753cc786bcc2cc0428dedbe2386a0f59465
+=======
+      debugShowCheckedModeBanner: false,
+=======
+>>>>>>> b0a2838 (removed merge conflicts)
+      supportedLocales: flc.supportedLocales.map((e) => Locale(e)),
+      localizationsDelegates: const [
+        // Package's localization delegate.
+        flc.CountryLocalizations.delegate,
+        GlobalWidgetsLocalizations.delegate,
+        GlobalMaterialLocalizations.delegate,
+        GlobalCupertinoLocalizations.delegate,
+      ],
+      
+      debugShowCheckedModeBanner: false,
+      
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 7862575 (last update Before dev changes)
+=======
+>>>>>>> 78625753cc786bcc2cc0428dedbe2386a0f59465
+=======
+>>>>>>> 7862575 (last update Before dev changes)
+>>>>>>> b0a2838 (removed merge conflicts)
       theme: ThemeData(
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
       home: ContentWriterLoginScreen(),
       //home: RegisterScreen(),
+<<<<<<< HEAD
+<<<<<<< HEAD
       //home: SetupProfile(),
+=======
+>>>>>>> 9b6515d (Log in page and sign up page are aproximately finish, they are about to done assets is tracked)
+=======
+      //home: SetupProfile(),
+>>>>>>> 150e31a (first part)
     );
   }
 }
