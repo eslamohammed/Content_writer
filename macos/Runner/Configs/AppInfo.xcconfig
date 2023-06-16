@@ -7,21 +7,31 @@
 // The application's name. By default this is also the title of the Flutter window.
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> b0a2838 (removed merge conflicts)
 PRODUCT_NAME = car_booking
 
 // The application's bundle identifier
 PRODUCT_BUNDLE_IDENTIFIER = com.example.carBooking
 =======
+<<<<<<< HEAD
 =======
 >>>>>>> 78625753cc786bcc2cc0428dedbe2386a0f59465
+=======
+>>>>>>> b0a2838 (removed merge conflicts)
 PRODUCT_NAME = content_writer
 
 // The application's bundle identifier
 PRODUCT_BUNDLE_IDENTIFIER = com.example.contentWriter
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 7862575 (last update Before dev changes)
 =======
 >>>>>>> 78625753cc786bcc2cc0428dedbe2386a0f59465
+=======
+>>>>>>> 7862575 (last update Before dev changes)
+>>>>>>> b0a2838 (removed merge conflicts)
 
 // The copyright displayed in application information
 PRODUCT_COPYRIGHT = Copyright © 2023 com.example. All rights reserved.

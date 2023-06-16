@@ -1,16 +1,22 @@
 {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> b0a2838 (removed merge conflicts)
     "name": "car_booking",
     "short_name": "car_booking",
 =======
     "name": "content_writer",
     "short_name": "content_writer",
 >>>>>>> 7862575 (last update Before dev changes)
+<<<<<<< HEAD
 =======
     "name": "content_writer",
     "short_name": "content_writer",
 >>>>>>> 78625753cc786bcc2cc0428dedbe2386a0f59465
+=======
+>>>>>>> b0a2838 (removed merge conflicts)
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",

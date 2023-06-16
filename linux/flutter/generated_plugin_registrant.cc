@@ -8,11 +8,17 @@
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 void fl_register_plugins(FlPluginRegistry* registry) {
 =======
 =======
 >>>>>>> 78625753cc786bcc2cc0428dedbe2386a0f59465
+=======
+
+void fl_register_plugins(FlPluginRegistry* registry) {
+=======
+>>>>>>> b0a2838 (removed merge conflicts)
 #include <file_selector_linux/file_selector_plugin.h>
 
 void fl_register_plugins(FlPluginRegistry* registry) {
@@ -20,7 +26,11 @@ void fl_register_plugins(FlPluginRegistry* registry) {
       fl_plugin_registry_get_registrar_for_plugin(registry, "FileSelectorPlugin");
   file_selector_plugin_register_with_registrar(file_selector_linux_registrar);
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 7862575 (last update Before dev changes)
 =======
 >>>>>>> 78625753cc786bcc2cc0428dedbe2386a0f59465
+=======
+>>>>>>> 7862575 (last update Before dev changes)
+>>>>>>> b0a2838 (removed merge conflicts)
 }

@@ -92,6 +92,9 @@ BEGIN
             VALUE "CompanyName", "com.example" "\0"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> b0a2838 (removed merge conflicts)
             VALUE "FileDescription", "car_booking" "\0"
             VALUE "FileVersion", VERSION_AS_STRING "\0"
             VALUE "InternalName", "car_booking" "\0"
@@ -99,8 +102,11 @@ BEGIN
             VALUE "OriginalFilename", "car_booking.exe" "\0"
             VALUE "ProductName", "car_booking" "\0"
 =======
+<<<<<<< HEAD
 =======
 >>>>>>> 78625753cc786bcc2cc0428dedbe2386a0f59465
+=======
+>>>>>>> b0a2838 (removed merge conflicts)
             VALUE "FileDescription", "content_writer" "\0"
             VALUE "FileVersion", VERSION_AS_STRING "\0"
             VALUE "InternalName", "content_writer" "\0"
@@ -108,9 +114,13 @@ BEGIN
             VALUE "OriginalFilename", "content_writer.exe" "\0"
             VALUE "ProductName", "content_writer" "\0"
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 7862575 (last update Before dev changes)
 =======
 >>>>>>> 78625753cc786bcc2cc0428dedbe2386a0f59465
+=======
+>>>>>>> 7862575 (last update Before dev changes)
+>>>>>>> b0a2838 (removed merge conflicts)
             VALUE "ProductVersion", VERSION_AS_STRING "\0"
         END
     END

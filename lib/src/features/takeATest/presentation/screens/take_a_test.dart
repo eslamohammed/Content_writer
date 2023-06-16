@@ -1,6 +1,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 import 'package:content_writer/src/core/utils/app_colors.dart';
 =======
 >>>>>>> 7862575 (last update Before dev changes)
@@ -9,6 +10,11 @@ import 'package:content_writer/src/core/utils/app_colors.dart';
 =======
 import 'package:content_writer/src/core/utils/app_colors.dart';
 >>>>>>> 150e31a (first part)
+=======
+import 'package:content_writer/src/core/utils/app_colors.dart';
+=======
+>>>>>>> 7862575 (last update Before dev changes)
+>>>>>>> b0a2838 (removed merge conflicts)
 import 'package:content_writer/src/core/utils/app_strings.dart';
 import 'package:content_writer/src/core/utils/widget/primaryButton.dart';
 import 'package:content_writer/src/features/submitTest/presentation/screens/submit_test.dart';
@@ -44,6 +50,7 @@ class TakeATest extends StatelessWidget {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 height: (234/844)*height,
 =======
                 height: (334/844)*height,
@@ -54,6 +61,12 @@ class TakeATest extends StatelessWidget {
 =======
                 height: (234/844)*height,
 >>>>>>> 150e31a (first part)
+=======
+                height: (234/844)*height,
+=======
+                height: (334/844)*height,
+>>>>>>> 7862575 (last update Before dev changes)
+>>>>>>> b0a2838 (removed merge conflicts)
                 width: (298/390)*width,
                 decoration: BoxDecoration(
                   color: Colors.white,
@@ -74,28 +87,39 @@ class TakeATest extends StatelessWidget {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 150e31a (first part)
+=======
+>>>>>>> b0a2838 (removed merge conflicts)
                               const Text(
                                 "Test",
                                 style: TextStyle(
                                   color: Colors.black,
                                   fontSize: 28,
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 78625753cc786bcc2cc0428dedbe2386a0f59465
+=======
+=======
+>>>>>>> b0a2838 (removed merge conflicts)
                               Text(
                                 "Test",
                                 style: TextStyle(
                                   color: HexColor("#000000"),
                                   fontSize: 18,
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 7862575 (last update Before dev changes)
 =======
 >>>>>>> 78625753cc786bcc2cc0428dedbe2386a0f59465
 =======
 >>>>>>> 150e31a (first part)
+=======
+>>>>>>> 7862575 (last update Before dev changes)
+>>>>>>> b0a2838 (removed merge conflicts)
                                   fontFamily: AppStrings.fontFamily2,
                                   fontWeight: FontWeight.w600,
                                   fontStyle: FontStyle.normal
@@ -119,6 +143,7 @@ class TakeATest extends StatelessWidget {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                                 color: HexColor("#000000"),
                                 fontSize: 19,
 =======
@@ -133,6 +158,14 @@ class TakeATest extends StatelessWidget {
                                 color: HexColor("#000000"),
                                 fontSize: 19,
 >>>>>>> 150e31a (first part)
+=======
+                                color: HexColor("#000000"),
+                                fontSize: 19,
+=======
+                                color: HexColor("#999999"),
+                                fontSize: 12.08,
+>>>>>>> 7862575 (last update Before dev changes)
+>>>>>>> b0a2838 (removed merge conflicts)
                                 fontFamily: AppStrings.fontFamily2,
                                 fontWeight: FontWeight.w400,
                                 fontStyle: FontStyle.normal
@@ -153,8 +186,11 @@ class TakeATest extends StatelessWidget {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 150e31a (first part)
+=======
+>>>>>>> b0a2838 (removed merge conflicts)
                           gradient: LinearGradient(
                             begin: Alignment.centerRight,
                             end: Alignment.centerLeft,
@@ -164,12 +200,17 @@ class TakeATest extends StatelessWidget {
                               ]
                             ),
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 7862575 (last update Before dev changes)
 =======
 >>>>>>> 78625753cc786bcc2cc0428dedbe2386a0f59465
 =======
 >>>>>>> 150e31a (first part)
+=======
+=======
+>>>>>>> 7862575 (last update Before dev changes)
+>>>>>>> b0a2838 (removed merge conflicts)
                           borderRadius: BorderRadius.circular(5),
                           child:Text(
                             "Take A Test",

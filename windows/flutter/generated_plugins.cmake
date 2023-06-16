@@ -5,12 +5,18 @@
 list(APPEND FLUTTER_PLUGIN_LIST
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
   file_selector_windows
 >>>>>>> 7862575 (last update Before dev changes)
 =======
   file_selector_windows
 >>>>>>> 78625753cc786bcc2cc0428dedbe2386a0f59465
+=======
+=======
+  file_selector_windows
+>>>>>>> 7862575 (last update Before dev changes)
+>>>>>>> b0a2838 (removed merge conflicts)
 )
 
 list(APPEND FLUTTER_FFI_PLUGIN_LIST

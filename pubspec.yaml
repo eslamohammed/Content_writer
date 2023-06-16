@@ -13,27 +13,39 @@ dependencies:
   equatable: ^2.0.5
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> b0a2838 (removed merge conflicts)
   fl_country_code_picker: ^0.1.2
 =======
   fl_country_code_picker: ^0.1.0+3
 
 >>>>>>> 7862575 (last update Before dev changes)
+<<<<<<< HEAD
 =======
   fl_country_code_picker: ^0.1.0+3
 
 >>>>>>> 78625753cc786bcc2cc0428dedbe2386a0f59465
+=======
+>>>>>>> b0a2838 (removed merge conflicts)
   flutter:
     sdk: flutter
   flutter_screenutil: ^5.8.4
   snippet_coder_utils: ^1.0.14
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
   image_picker: ^0.8.6
 >>>>>>> 7862575 (last update Before dev changes)
 =======
   image_picker: ^0.8.6
 >>>>>>> 78625753cc786bcc2cc0428dedbe2386a0f59465
+=======
+=======
+  image_picker: ^0.8.6
+>>>>>>> 7862575 (last update Before dev changes)
+>>>>>>> b0a2838 (removed merge conflicts)
 
 dev_dependencies:
   flutter_lints: ^2.0.0
@@ -67,6 +79,9 @@ flutter:
   fonts:
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> b0a2838 (removed merge conflicts)
     - family: Tajawal
       fonts:
         - asset: assets/fonts/Tajawal-Black.ttf
@@ -86,8 +101,11 @@ flutter:
 
 =======
 >>>>>>> 7862575 (last update Before dev changes)
+<<<<<<< HEAD
 =======
 >>>>>>> 78625753cc786bcc2cc0428dedbe2386a0f59465
+=======
+>>>>>>> b0a2838 (removed merge conflicts)
     - family: Poppins
       fonts:
         - asset: assets/fonts/Poppins-Black.ttf

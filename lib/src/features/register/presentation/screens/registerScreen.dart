@@ -7,6 +7,7 @@ import 'package:content_writer/src/features/Login/presentation/screens/loginScre
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 import 'package:content_writer/src/features/setupProfile/presentation/screens/profile_setup_screen.dart';
 >>>>>>> 7862575 (last update Before dev changes)
@@ -15,6 +16,11 @@ import 'package:content_writer/src/features/setupProfile/presentation/screens/pr
 >>>>>>> 78625753cc786bcc2cc0428dedbe2386a0f59465
 =======
 >>>>>>> 150e31a (first part)
+=======
+=======
+import 'package:content_writer/src/features/setupProfile/presentation/screens/profile_setup_screen.dart';
+>>>>>>> 7862575 (last update Before dev changes)
+>>>>>>> b0a2838 (removed merge conflicts)
 import 'package:content_writer/src/features/setupProfile/presentation/screens/setupPofile.dart';
 import 'package:flutter/gestures.dart';
 import 'package:flutter/material.dart';
@@ -33,16 +39,23 @@ class RegisterScreen extends StatefulWidget {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 150e31a (first part)
+=======
+>>>>>>> b0a2838 (removed merge conflicts)
   List<String> options = ["I Agree to Term & Condition and Privacy Policy",""];
 
 class _RegisterScreenState extends State<RegisterScreen> {
   String currentOption = options[0];
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 78625753cc786bcc2cc0428dedbe2386a0f59465
+=======
+=======
+>>>>>>> b0a2838 (removed merge conflicts)
 //  List<String> options = ["I Agree to Term & Condition and Privacy Policy",""];
 
 class _RegisterScreenState extends State<RegisterScreen> {
@@ -51,11 +64,15 @@ class _RegisterScreenState extends State<RegisterScreen> {
     int? selectedvalue2 = 1;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 7862575 (last update Before dev changes)
 =======
 >>>>>>> 78625753cc786bcc2cc0428dedbe2386a0f59465
 =======
 >>>>>>> 150e31a (first part)
+=======
+>>>>>>> 7862575 (last update Before dev changes)
+>>>>>>> b0a2838 (removed merge conflicts)
 
   final TextEditingController _nameTextEditingController =
       TextEditingController();
@@ -149,8 +166,11 @@ class _RegisterScreenState extends State<RegisterScreen> {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 150e31a (first part)
+=======
+>>>>>>> b0a2838 (removed merge conflicts)
                 //height: height*(462/878),
 //                height: height*(496.81/878),
 /*                decoration: BoxDecoration(
@@ -158,12 +178,17 @@ class _RegisterScreenState extends State<RegisterScreen> {
                 ),
 */
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 7862575 (last update Before dev changes)
 =======
 >>>>>>> 78625753cc786bcc2cc0428dedbe2386a0f59465
 =======
 >>>>>>> 150e31a (first part)
+=======
+=======
+>>>>>>> 7862575 (last update Before dev changes)
+>>>>>>> b0a2838 (removed merge conflicts)
                 child: Column(
                   crossAxisAlignment: CrossAxisAlignment.start,
                   mainAxisAlignment: MainAxisAlignment.start,
@@ -207,8 +232,11 @@ class _RegisterScreenState extends State<RegisterScreen> {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 150e31a (first part)
+=======
+>>>>>>> b0a2838 (removed merge conflicts)
                     
 
                     Padding(
@@ -296,9 +324,13 @@ class _RegisterScreenState extends State<RegisterScreen> {
                     ),
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 78625753cc786bcc2cc0428dedbe2386a0f59465
+=======
+=======
+>>>>>>> b0a2838 (removed merge conflicts)
 
                                           // RADIO BUTTON
                       
@@ -395,11 +427,15 @@ class _RegisterScreenState extends State<RegisterScreen> {
                       ),
                     
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 7862575 (last update Before dev changes)
 =======
 >>>>>>> 78625753cc786bcc2cc0428dedbe2386a0f59465
 =======
 >>>>>>> 150e31a (first part)
+=======
+>>>>>>> 7862575 (last update Before dev changes)
+>>>>>>> b0a2838 (removed merge conflicts)
                     Center(//Primary Sign Up Button
                       child: Padding(
                         padding: const EdgeInsets.only(top : 10.0),
@@ -409,8 +445,11 @@ class _RegisterScreenState extends State<RegisterScreen> {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 150e31a (first part)
+=======
+>>>>>>> b0a2838 (removed merge conflicts)
                           //height: (48),
                           gradient: LinearGradient(
                             begin: Alignment.centerRight,
@@ -421,12 +460,17 @@ class _RegisterScreenState extends State<RegisterScreen> {
                               ]
                             ),
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 7862575 (last update Before dev changes)
 =======
 >>>>>>> 78625753cc786bcc2cc0428dedbe2386a0f59465
 =======
 >>>>>>> 150e31a (first part)
+=======
+=======
+>>>>>>> 7862575 (last update Before dev changes)
+>>>>>>> b0a2838 (removed merge conflicts)
                           borderRadius: BorderRadius.circular(5),
                           child:Text(
                             "Sign Up",
@@ -443,6 +487,7 @@ class _RegisterScreenState extends State<RegisterScreen> {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                             Navigator.push(context, MaterialPageRoute(builder: ((context) => SetupProfile())))
 =======
                             Navigator.push(context, MaterialPageRoute(builder: ((context) => ProfileSetUp())))
@@ -453,6 +498,12 @@ class _RegisterScreenState extends State<RegisterScreen> {
 =======
                             Navigator.push(context, MaterialPageRoute(builder: ((context) => SetupProfile())))
 >>>>>>> 150e31a (first part)
+=======
+                            Navigator.push(context, MaterialPageRoute(builder: ((context) => SetupProfile())))
+=======
+                            Navigator.push(context, MaterialPageRoute(builder: ((context) => ProfileSetUp())))
+>>>>>>> 7862575 (last update Before dev changes)
+>>>>>>> b0a2838 (removed merge conflicts)
                           },
                         ),
                       ),

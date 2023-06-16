@@ -29,13 +29,19 @@ int APIENTRY wWinMain(_In_ HINSTANCE instance, _In_opt_ HINSTANCE prev,
   Win32Window::Size size(1280, 720);
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> b0a2838 (removed merge conflicts)
   if (!window.Create(L"car_booking", origin, size)) {
 =======
   if (!window.Create(L"content_writer", origin, size)) {
 >>>>>>> 7862575 (last update Before dev changes)
+<<<<<<< HEAD
 =======
   if (!window.Create(L"content_writer", origin, size)) {
 >>>>>>> 78625753cc786bcc2cc0428dedbe2386a0f59465
+=======
+>>>>>>> b0a2838 (removed merge conflicts)
     return EXIT_FAILURE;
   }
   window.SetQuitOnClose(true);

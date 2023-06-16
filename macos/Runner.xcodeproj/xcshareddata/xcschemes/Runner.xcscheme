@@ -17,13 +17,19 @@
                BlueprintIdentifier = "33CC10EC2044A3C60003C045"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> b0a2838 (removed merge conflicts)
                BuildableName = "car_booking.app"
 =======
                BuildableName = "content_writer.app"
 >>>>>>> 7862575 (last update Before dev changes)
+<<<<<<< HEAD
 =======
                BuildableName = "content_writer.app"
 >>>>>>> 78625753cc786bcc2cc0428dedbe2386a0f59465
+=======
+>>>>>>> b0a2838 (removed merge conflicts)
                BlueprintName = "Runner"
                ReferencedContainer = "container:Runner.xcodeproj">
             </BuildableReference>
@@ -41,13 +47,19 @@
             BlueprintIdentifier = "33CC10EC2044A3C60003C045"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> b0a2838 (removed merge conflicts)
             BuildableName = "car_booking.app"
 =======
             BuildableName = "content_writer.app"
 >>>>>>> 7862575 (last update Before dev changes)
+<<<<<<< HEAD
 =======
             BuildableName = "content_writer.app"
 >>>>>>> 78625753cc786bcc2cc0428dedbe2386a0f59465
+=======
+>>>>>>> b0a2838 (removed merge conflicts)
             BlueprintName = "Runner"
             ReferencedContainer = "container:Runner.xcodeproj">
          </BuildableReference>
@@ -83,13 +95,19 @@
             BlueprintIdentifier = "33CC10EC2044A3C60003C045"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> b0a2838 (removed merge conflicts)
             BuildableName = "car_booking.app"
 =======
             BuildableName = "content_writer.app"
 >>>>>>> 7862575 (last update Before dev changes)
+<<<<<<< HEAD
 =======
             BuildableName = "content_writer.app"
 >>>>>>> 78625753cc786bcc2cc0428dedbe2386a0f59465
+=======
+>>>>>>> b0a2838 (removed merge conflicts)
             BlueprintName = "Runner"
             ReferencedContainer = "container:Runner.xcodeproj">
          </BuildableReference>
@@ -108,13 +126,19 @@
             BlueprintIdentifier = "33CC10EC2044A3C60003C045"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> b0a2838 (removed merge conflicts)
             BuildableName = "car_booking.app"
 =======
             BuildableName = "content_writer.app"
 >>>>>>> 7862575 (last update Before dev changes)
+<<<<<<< HEAD
 =======
             BuildableName = "content_writer.app"
 >>>>>>> 78625753cc786bcc2cc0428dedbe2386a0f59465
+=======
+>>>>>>> b0a2838 (removed merge conflicts)
             BlueprintName = "Runner"
             ReferencedContainer = "container:Runner.xcodeproj">
          </BuildableReference>

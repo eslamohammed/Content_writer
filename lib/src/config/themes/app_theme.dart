@@ -11,13 +11,19 @@ ThemeData appTheame(){
     scaffoldBackgroundColor: Colors.white,
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> b0a2838 (removed merge conflicts)
     fontFamily: AppStrings.fontFamily,
 =======
     fontFamily: AppStrings.fontFamily2,
 >>>>>>> 7862575 (last update Before dev changes)
+<<<<<<< HEAD
 =======
     fontFamily: AppStrings.fontFamily2,
 >>>>>>> 78625753cc786bcc2cc0428dedbe2386a0f59465
+=======
+>>>>>>> b0a2838 (removed merge conflicts)
 
 
 

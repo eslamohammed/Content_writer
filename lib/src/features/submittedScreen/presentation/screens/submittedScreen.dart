@@ -9,6 +9,7 @@ import 'package:content_writer/src/features/Login/presentation/screens/loginScre
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 import 'package:content_writer/src/features/homePage/presentation/screens/home_page_screen.dart';
 >>>>>>> 7862575 (last update Before dev changes)
@@ -17,6 +18,11 @@ import 'package:content_writer/src/features/homePage/presentation/screens/home_p
 >>>>>>> 78625753cc786bcc2cc0428dedbe2386a0f59465
 =======
 >>>>>>> 150e31a (first part)
+=======
+=======
+import 'package:content_writer/src/features/homePage/presentation/screens/home_page_screen.dart';
+>>>>>>> 7862575 (last update Before dev changes)
+>>>>>>> b0a2838 (removed merge conflicts)
 import 'package:flutter/material.dart';
 
 class SubmittedScreen extends StatefulWidget {
@@ -38,11 +44,15 @@ class _SubmittedScreenState extends State<SubmittedScreen> {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> b0a2838 (removed merge conflicts)
           builder: (_) =>  ContentWriterLoginScreen(), //phoneNumber: widget.phoneNumber
 =======
         //  builder: (_) =>  ContentWriterLoginScreen(), //phoneNumber: widget.phoneNumber
           builder: (_) =>  HomePage(), //phoneNumber: widget.phoneNumber
 >>>>>>> 7862575 (last update Before dev changes)
+<<<<<<< HEAD
 =======
         //  builder: (_) =>  ContentWriterLoginScreen(), //phoneNumber: widget.phoneNumber
           builder: (_) =>  HomePage(), //phoneNumber: widget.phoneNumber
@@ -50,6 +60,8 @@ class _SubmittedScreenState extends State<SubmittedScreen> {
 =======
           builder: (_) =>  ContentWriterLoginScreen(), //phoneNumber: widget.phoneNumber
 >>>>>>> 150e31a (first part)
+=======
+>>>>>>> b0a2838 (removed merge conflicts)
         ),
       );
     });
