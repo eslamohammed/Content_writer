@@ -1,6 +1,11 @@
 {
+<<<<<<< HEAD
     "name": "car_booking",
     "short_name": "car_booking",
+=======
+    "name": "content_writer",
+    "short_name": "content_writer",
+>>>>>>> 7862575 (last update Before dev changes)
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",

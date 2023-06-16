@@ -6,8 +6,15 @@ import 'package:content_writer/src/core/utils/assets_manager.dart';
 import 'package:content_writer/src/core/utils/hex_color.dart';
 import 'package:content_writer/src/core/utils/widget/customInputText.dart';
 import 'package:content_writer/src/core/utils/widget/primaryButton.dart';
+<<<<<<< HEAD
 import 'package:content_writer/src/features/Login/presentation/screens/auth_input_field.dart';
 import 'package:content_writer/src/features/register/presentation/screens/registerScreen.dart';
+=======
+
+import 'package:content_writer/src/features/Login/presentation/widgets/phone_number_picker.dart';
+import 'package:content_writer/src/features/register/presentation/screens/registerScreen.dart';
+import 'package:content_writer/src/features/setupProfile/presentation/screens/setupPofile.dart';
+>>>>>>> 7862575 (last update Before dev changes)
 import 'package:flutter/gestures.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
@@ -23,9 +30,17 @@ class ContentWriterLoginScreen extends StatefulWidget{
     List<String> options = ["I Agree to Term & Condition and Privacy Policy",""];
 class _ContentWriterLoginScreen extends State<ContentWriterLoginScreen>{
 
+<<<<<<< HEAD
     String currentOption = options[0];  
 
     final formKey = GlobalKey<FormState>();
+=======
+    int? selectedvalue = 1;
+    int? selectedvalue2 = 1;
+
+    final formKey = GlobalKey<FormState>();
+
+>>>>>>> 7862575 (last update Before dev changes)
     final TextEditingController _phoneTextEditingController = TextEditingController();
 
   @override
@@ -181,6 +196,7 @@ class _ContentWriterLoginScreen extends State<ContentWriterLoginScreen>{
                       
                 
                         //User name
+<<<<<<< HEAD
                         CustomInputTextField(
                           controller: _phoneTextEditingController,
                           hintText: "333 333 333",
@@ -201,6 +217,65 @@ class _ContentWriterLoginScreen extends State<ContentWriterLoginScreen>{
                                     Text("I Agree to ",
                                     style: TextStyle(
                                       //height: 3/18,
+=======
+/*                        Container(
+                          width: width*0.5,
+                          child: CustomInputTextField(
+                            controller: _phoneTextEditingController,
+                            hintText: "333 333 333",
+                            secure: false,
+                            icon: Icons.person,
+                            fillColor: AppColors.inputColor,
+                          ),
+                        ),
+                        
+*/
+
+                        
+                        const Align(
+                          alignment: Alignment.topLeft,
+                          child: Text('Mobile Number',
+                            textAlign: TextAlign.start,
+                            style: TextStyle(
+                              color: Colors.grey,
+                            ),
+                          ),
+                        ),
+                        const SizedBox(height: 10),
+
+                        Center(
+                          child: Container(
+                            width: (305/390)*width,
+                            //height: (60/844)*height,
+                            child: PhoneNumberCodePicker(),
+                            )
+                          ),
+
+                      // RADIO BUTTON
+                      
+                      Padding(//term & condition and privcy policy
+                        padding: const EdgeInsets.only(top:20.0,bottom: 10.0,left:15),
+                        child: Row(
+                          mainAxisAlignment: MainAxisAlignment.start,
+                          children: [
+                            Transform.scale(
+                              scale: 1,
+                              child: Radio<int>(
+                                value: 0,
+                                toggleable: true,
+                                materialTapTargetSize: MaterialTapTargetSize.shrinkWrap,
+                                groupValue: selectedvalue,
+                                onChanged: (value){
+                                  setState(() {
+                                    selectedvalue = value;
+                                    print(value);
+                                  });
+                                },
+                              ),
+                            ),
+                                    Text("I Agree to ",
+                                    style: TextStyle(
+>>>>>>> 7862575 (last update Before dev changes)
                                       color: HexColor("#B7B7B7"),
                                       fontSize: 12,
                                       fontFamily: AppStrings.fontFamily2,
@@ -209,7 +284,10 @@ class _ContentWriterLoginScreen extends State<ContentWriterLoginScreen>{
                                       ),
                                     ),Text("Term & Condition",
                                     style: TextStyle(
+<<<<<<< HEAD
                                       //height: 3/18,
+=======
+>>>>>>> 7862575 (last update Before dev changes)
                                       color: HexColor("#FFFFFF"),
                                       fontSize: 12,
                                       fontFamily: AppStrings.fontFamily2,
@@ -218,7 +296,10 @@ class _ContentWriterLoginScreen extends State<ContentWriterLoginScreen>{
                                       ),
                                     ),Text(" and ",
                                     style: TextStyle(
+<<<<<<< HEAD
                                       //height: 3/18,
+=======
+>>>>>>> 7862575 (last update Before dev changes)
                                       color: HexColor("#B7B7B7"),
                                       fontSize: 12,
                                       fontFamily: AppStrings.fontFamily2,
@@ -228,7 +309,10 @@ class _ContentWriterLoginScreen extends State<ContentWriterLoginScreen>{
                                     ),
                                     Text("Privacy Policy.",
                                     style: TextStyle(
+<<<<<<< HEAD
                                       //height: 3/18,
+=======
+>>>>>>> 7862575 (last update Before dev changes)
                                       color: HexColor("#FFFFFF"),
                                       fontSize: 12,
                                       fontFamily: AppStrings.fontFamily2,
@@ -238,6 +322,7 @@ class _ContentWriterLoginScreen extends State<ContentWriterLoginScreen>{
                                     ),
                                   ],
                                 ),
+<<<<<<< HEAD
                                 value: options[1],
                                 groupValue: currentOption,
                                 onChanged: ((value) => {
@@ -289,6 +374,50 @@ class _ContentWriterLoginScreen extends State<ContentWriterLoginScreen>{
                                 AppColors.secondaryButton,
                                 ]
                               ),
+=======
+                      ),
+                        
+                      Padding(//remember me
+                        padding: const EdgeInsets.only(top:20.0,bottom: 10.0,left:15),
+                        child: Row(
+                          mainAxisAlignment: MainAxisAlignment.start,
+                          children: [
+                            Transform.scale(
+                              scale: 1,
+                              child: Radio<int>(
+                                value: 0,
+                                toggleable: true,
+                                materialTapTargetSize: MaterialTapTargetSize.shrinkWrap,
+                                groupValue: selectedvalue2,
+                                onChanged: (value){
+                                  setState(() {
+                                    selectedvalue2 = value;
+                                    print(value);
+                                  });
+                                },
+                              ),
+                            ),
+                            Text("Remember me",
+                                  style: TextStyle(
+                                    //height: 3/18,
+                                    color: HexColor("#B7B7B7"),
+                                    fontSize: 12,
+                                    fontFamily: AppStrings.fontFamily2,
+                                    fontWeight: FontWeight.w400,
+                                    fontStyle: FontStyle.normal
+                                    ),
+                                  ),    
+                                ],
+                              ),
+                      ),
+              
+                      
+                      
+                      Center(//login
+                          child: PrimaryButton(
+                            width: (300/390)*width,
+                            height: (60/844)*height,
+>>>>>>> 7862575 (last update Before dev changes)
                             borderRadius: BorderRadius.circular(5),
                             child:Text(
                               "Log In",
@@ -305,7 +434,11 @@ class _ContentWriterLoginScreen extends State<ContentWriterLoginScreen>{
                             },
                           ),
                         ),
+<<<<<<< HEAD
                       Container(
+=======
+                      Container(//dont have
+>>>>>>> 7862575 (last update Before dev changes)
                         height: height*0.05,
                         child: Align(//Don't have an account ==> Sign Up
                           alignment: Alignment.center,
@@ -340,7 +473,14 @@ class _ContentWriterLoginScreen extends State<ContentWriterLoginScreen>{
                                   recognizer: TapGestureRecognizer()
                                     ..onTap = () {
                                     //Navigator.pushNamed(context, "/register");
+<<<<<<< HEAD
                                     Navigator.push(context,MaterialPageRoute(builder: (context) => RegisterScreen()));
+=======
+                                    //my screen
+                                    Navigator.push(context,MaterialPageRoute(builder: (context) => RegisterScreen()));
+                                    //forign screen
+                                    //Navigator.push(context,MaterialPageRoute(builder: (context) => SetupYourProfile()));
+>>>>>>> 7862575 (last update Before dev changes)
                                   }
                                 ),
                               ],

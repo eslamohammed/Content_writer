@@ -1,7 +1,16 @@
+<<<<<<< HEAD
+=======
+// ignore_for_file: unused_field
+
+>>>>>>> 7862575 (last update Before dev changes)
 import 'package:content_writer/src/core/utils/app_strings.dart';
 import 'package:content_writer/src/core/utils/widget/profile_setup_input_field.dart';
 import 'package:content_writer/src/features/submittedScreen/presentation/screens/submittedScreen.dart';
 import 'package:flutter/material.dart';
+<<<<<<< HEAD
+=======
+import 'package:image_picker/image_picker.dart';
+>>>>>>> 7862575 (last update Before dev changes)
 
 import '../../../../core/utils/app_colors.dart';
 import '../../../../core/utils/hex_color.dart';
@@ -15,6 +24,14 @@ class SubmitTestScreen extends StatefulWidget {
 }
 
 class _SubmitTestScreenState extends State<SubmitTestScreen> {
+<<<<<<< HEAD
+=======
+
+    PickedFile? _imageFile;
+    final ImagePicker _picker = ImagePicker();
+
+
+>>>>>>> 7862575 (last update Before dev changes)
   @override
   Widget build(BuildContext context) {
     return Scaffold(body: _submitTest(context));
@@ -39,7 +56,11 @@ class _SubmitTestScreenState extends State<SubmitTestScreen> {
                 child: Text("Submit Your Test",
                   style: TextStyle(
                     color: HexColor("#FFFFFF"),
+<<<<<<< HEAD
                     fontSize: 25,
+=======
+                    fontSize: 18,
+>>>>>>> 7862575 (last update Before dev changes)
                     fontFamily: AppStrings.fontFamily2,
                     fontWeight: FontWeight.w600,
                     fontStyle: FontStyle.normal
@@ -55,33 +76,58 @@ class _SubmitTestScreenState extends State<SubmitTestScreen> {
                     Row(
                       mainAxisAlignment: MainAxisAlignment.spaceBetween,
                       children: [
+<<<<<<< HEAD
                         const Text(
                           "Test",
                           style: TextStyle(
                             color: Colors.white,
                             fontSize: 28,
+=======
+                        Text(//Test
+                          "Test",
+                          style: TextStyle(
+                            color: HexColor("#FFFFFF"),
+                            fontSize: 18,
+>>>>>>> 7862575 (last update Before dev changes)
                             fontFamily: AppStrings.fontFamily2,
                             fontWeight: FontWeight.w600,
                             fontStyle: FontStyle.normal
                           ),
                         ),
+<<<<<<< HEAD
                         Padding(
+=======
+                        Padding(//Icon
+>>>>>>> 7862575 (last update Before dev changes)
                           padding: const EdgeInsets.only(right:12.5),
                           child: IconButton(
                             onPressed: (){
                                 //action coe when button is pressed
                             }, 
                             icon: Icon(Icons.info_outline),
+<<<<<<< HEAD
+=======
+                            color: HexColor("#FFFFFF"),
+>>>>>>> 7862575 (last update Before dev changes)
                           ),
                         ),
                       ],
                     ),
+<<<<<<< HEAD
                     Padding(
                       padding: const EdgeInsets.only(top:4.0,bottom: 15),
                       child: Text("Create a brand identity copy for a fashion brand. Targe audience are 18 - 32 yrs and location is based in bangalore",
                         style: TextStyle(
                           color: Colors.white,
                           fontSize: 19,
+=======
+                    Padding(//Create a brand identity copy for a fashion brand.
+                      padding: const EdgeInsets.only(top:4.0,bottom: 15),
+                      child: Text("Create a brand identity copy for a fashion brand. Targe audience are 18 - 32 yrs and location is based in bangalore",
+                        style: TextStyle(
+                          color: HexColor("#999999"),
+                          fontSize: 12.08,
+>>>>>>> 7862575 (last update Before dev changes)
                           fontFamily: AppStrings.fontFamily2,
                           fontWeight: FontWeight.w400,
                           fontStyle: FontStyle.normal
@@ -114,12 +160,20 @@ class _SubmitTestScreenState extends State<SubmitTestScreen> {
                           
                       Center(//Upload size must be less than 10MB
                         child: SizedBox(                          
+<<<<<<< HEAD
                           height: (13/844)*height,
+=======
+                          height: (25/844)*height,
+>>>>>>> 7862575 (last update Before dev changes)
                           width: (152/390)*width,
                           child: Text("Upload size must be less than 10MB",
                             style: TextStyle(
                               color: HexColor("#666666"),
+<<<<<<< HEAD
                               fontSize: 12.8,
+=======
+                              fontSize: 8.63,
+>>>>>>> 7862575 (last update Before dev changes)
                               fontFamily: AppStrings.fontFamily2,
                               fontWeight: FontWeight.w400,
                               fontStyle: FontStyle.normal
@@ -129,11 +183,16 @@ class _SubmitTestScreenState extends State<SubmitTestScreen> {
                       ),
 
               
+<<<<<<< HEAD
                     Center(//Submit test Button
+=======
+                      Center(//Submit test Button
+>>>>>>> 7862575 (last update Before dev changes)
                       child: Padding(
                         padding: const EdgeInsets.only(top : 10.0),
                         child: PrimaryButton(
                           width: (238/390)*width,
+<<<<<<< HEAD
                           height: (41/844)*height,
                           //height: (48),
                           gradient: LinearGradient(
@@ -144,13 +203,20 @@ class _SubmitTestScreenState extends State<SubmitTestScreen> {
                               AppColors.secondaryButton,
                               ]
                             ),
+=======
+                          //height: (41/844)*height,
+>>>>>>> 7862575 (last update Before dev changes)
                           borderRadius: BorderRadius.circular(5),
                           child:Text(
                             "Submit Test",
                             style: TextStyle(
                               color: Colors.white,
                               //fontWeight: FontWeight.bold,
+<<<<<<< HEAD
                               fontSize: 18,
+=======
+                              fontSize: 12.08,
+>>>>>>> 7862575 (last update Before dev changes)
                               fontFamily: AppStrings.fontFamily2,
                               fontWeight: FontWeight.w400,
                             ),
@@ -161,7 +227,11 @@ class _SubmitTestScreenState extends State<SubmitTestScreen> {
                           },
                         ),
                       ),
+<<<<<<< HEAD
                     ),
+=======
+                    ),                  
+>>>>>>> 7862575 (last update Before dev changes)
                   ],
                 ),
               ),  
@@ -171,6 +241,7 @@ class _SubmitTestScreenState extends State<SubmitTestScreen> {
       ),
     );
   }
+<<<<<<< HEAD
 }
 
 /*
@@ -228,3 +299,18 @@ class _SubmitTestScreenState extends State<SubmitTestScreen> {
 
 
  */
+=======
+
+  void _pickImage() async {
+    try {
+      final pickedFile = await _picker.getImage(source: ImageSource.gallery);
+      setState(() {
+        _imageFile = pickedFile;
+      });
+    } catch (e) {
+      debugPrint(e.toString());
+    }
+  }
+
+}
+>>>>>>> 7862575 (last update Before dev changes)

@@ -6,6 +6,10 @@ import 'dart:async';
 import 'package:content_writer/src/core/utils/app_strings.dart';
 import 'package:content_writer/src/core/utils/assets_manager.dart';
 import 'package:content_writer/src/features/Login/presentation/screens/loginScreen.dart';
+<<<<<<< HEAD
+=======
+import 'package:content_writer/src/features/homePage/presentation/screens/home_page_screen.dart';
+>>>>>>> 7862575 (last update Before dev changes)
 import 'package:flutter/material.dart';
 
 class SubmittedScreen extends StatefulWidget {
@@ -24,7 +28,12 @@ class _SubmittedScreenState extends State<SubmittedScreen> {
     Timer(Duration(seconds: 2), () {
       Navigator.of(context).pushReplacement(
         MaterialPageRoute(
+<<<<<<< HEAD
           builder: (_) =>  ContentWriterLoginScreen(), //phoneNumber: widget.phoneNumber
+=======
+        //  builder: (_) =>  ContentWriterLoginScreen(), //phoneNumber: widget.phoneNumber
+          builder: (_) =>  HomePage(), //phoneNumber: widget.phoneNumber
+>>>>>>> 7862575 (last update Before dev changes)
         ),
       );
     });

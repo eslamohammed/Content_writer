@@ -2,6 +2,11 @@
 
 import 'package:content_writer/src/core/utils/app_strings.dart';
 import 'package:flutter/material.dart';
+<<<<<<< HEAD
+=======
+import 'package:fl_country_code_picker/fl_country_code_picker.dart' as flc;
+import 'package:flutter_localizations/flutter_localizations.dart';
+>>>>>>> 7862575 (last update Before dev changes)
 
 import 'src/features/Login/presentation/screens/loginScreen.dart';
 import 'src/features/register/presentation/screens/registerScreen.dart';
@@ -17,7 +22,21 @@ class ContentWriter extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       title: AppStrings.AppName ,
+<<<<<<< HEAD
       debugShowCheckedModeBanner: false,
+=======
+      supportedLocales: flc.supportedLocales.map((e) => Locale(e)),
+      localizationsDelegates: const [
+        // Package's localization delegate.
+        flc.CountryLocalizations.delegate,
+        GlobalWidgetsLocalizations.delegate,
+        GlobalMaterialLocalizations.delegate,
+        GlobalCupertinoLocalizations.delegate,
+      ],
+      
+      debugShowCheckedModeBanner: false,
+      
+>>>>>>> 7862575 (last update Before dev changes)
       theme: ThemeData(
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,

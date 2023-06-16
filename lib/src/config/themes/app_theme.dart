@@ -9,7 +9,11 @@ ThemeData appTheame(){
     hintColor: AppColors.hint,
     brightness: Brightness.light,
     scaffoldBackgroundColor: Colors.white,
+<<<<<<< HEAD
     fontFamily: AppStrings.fontFamily,
+=======
+    fontFamily: AppStrings.fontFamily2,
+>>>>>>> 7862575 (last update Before dev changes)
 
 
 

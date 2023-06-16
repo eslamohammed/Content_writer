@@ -1,4 +1,7 @@
+<<<<<<< HEAD
 import 'package:content_writer/src/core/utils/app_colors.dart';
+=======
+>>>>>>> 7862575 (last update Before dev changes)
 import 'package:content_writer/src/core/utils/app_strings.dart';
 import 'package:content_writer/src/core/utils/widget/primaryButton.dart';
 import 'package:content_writer/src/features/submitTest/presentation/screens/submit_test.dart';
@@ -31,7 +34,11 @@ class TakeATest extends StatelessWidget {
               ),
             child:Center(
               child: Container(
+<<<<<<< HEAD
                 height: (234/844)*height,
+=======
+                height: (334/844)*height,
+>>>>>>> 7862575 (last update Before dev changes)
                 width: (298/390)*width,
                 decoration: BoxDecoration(
                   color: Colors.white,
@@ -49,11 +56,19 @@ class TakeATest extends StatelessWidget {
                           Row(
                             mainAxisAlignment: MainAxisAlignment.spaceBetween,
                             children: [
+<<<<<<< HEAD
                               const Text(
                                 "Test",
                                 style: TextStyle(
                                   color: Colors.black,
                                   fontSize: 28,
+=======
+                              Text(
+                                "Test",
+                                style: TextStyle(
+                                  color: HexColor("#000000"),
+                                  fontSize: 18,
+>>>>>>> 7862575 (last update Before dev changes)
                                   fontFamily: AppStrings.fontFamily2,
                                   fontWeight: FontWeight.w600,
                                   fontStyle: FontStyle.normal
@@ -74,8 +89,13 @@ class TakeATest extends StatelessWidget {
                             padding: const EdgeInsets.only(top:4.0,bottom: 15),
                             child: Text("Create a brand identity copy for a fashion brand. Targe audience are 18 - 32 yrs and location is based in bangalore",
                               style: TextStyle(
+<<<<<<< HEAD
                                 color: HexColor("#000000"),
                                 fontSize: 19,
+=======
+                                color: HexColor("#999999"),
+                                fontSize: 12.08,
+>>>>>>> 7862575 (last update Before dev changes)
                                 fontFamily: AppStrings.fontFamily2,
                                 fontWeight: FontWeight.w400,
                                 fontStyle: FontStyle.normal
@@ -93,6 +113,7 @@ class TakeATest extends StatelessWidget {
                         child: PrimaryButton(
                           width: (300/390)*width,
                           height: (60/844)*height,
+<<<<<<< HEAD
                           gradient: LinearGradient(
                             begin: Alignment.centerRight,
                             end: Alignment.centerLeft,
@@ -101,6 +122,8 @@ class TakeATest extends StatelessWidget {
                               AppColors.secondaryButton,
                               ]
                             ),
+=======
+>>>>>>> 7862575 (last update Before dev changes)
                           borderRadius: BorderRadius.circular(5),
                           child:Text(
                             "Take A Test",
