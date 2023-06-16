@@ -46,10 +46,17 @@ flutter:
   # To add assets to your application, add an assets section, like this:
   assets:
     - assets/images/Background.png
+<<<<<<< HEAD
     - assets/images/Group.png
     - assets/images/upload.png
 
 
+=======
+    - assets/images/Background1.png
+    - assets/images/Background2.png
+    - assets/images/P1.png
+    - assets/images/Group.png
+>>>>>>> 9b6515d (Log in page and sign up page are aproximately finish, they are about to done assets is tracked)
   fonts:
 <<<<<<< HEAD
 <<<<<<< HEAD
